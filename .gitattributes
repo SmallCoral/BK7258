@@ -1,0 +1,15 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.md whitespace=-blank-at-eol
+*.json text eol=lf
+*.txt text eol=lf
+*.zip binary
+*.rar binary
+*.pdf binary
+*.xlsx binary
+*.bin binary
+*.png binary
+*.jpg binary
+Document/** -text

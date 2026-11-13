@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-13",
+  "algorithm": "SHA-256",
+  "fileCount": 9,
+  "totalBytes": 57641431.0,
+  "files": [
+    {
+      "path": "Document/参考资料/UV-K1/UV-K1-2中文说明书.pdf",
+      "bytes": 13046633,
+      "sha256": "a4d98db3dd5ecc7e4148c5360b71ab56969f85a1cb905d94d5c9742fec313e92",
+      "origin": "user-provided-conversation-attachment"
+    },
+    {
+      "path": "Document/参考资料/UV-K1/UV-K1(8)固件.rar",
+      "bytes": 71913,
+      "sha256": "52d3a1ef107114deb113cdb1b793d74c7abef2e830a8fe84a273ad2b5c280422",
+      "origin": "user-provided-conversation-attachment"
+    },
+    {
+      "path": "Document/参考资料/UV-K1/UV-K1(8)写频软件.rar",
+      "bytes": 2429397,
+      "sha256": "01066b57a66ac851459d420d1ed032419ed7af5013d5e9d57e0210b1001d40c5",
+      "origin": "user-provided-conversation-attachment"
+    },
+    {
+      "path": "Document/立创·实战派BK7258/1、官方烧录工具/BKFIL_windows_4.1.2.260525141.zip",
+      "bytes": 39197435,
+      "sha256": "967000a0aa5a18e4060f5617007ee06217586f60865c3700616123f68669c789",
+      "origin": "original-project-file"
+    },
+    {
+      "path": "Document/立创·实战派BK7258/2、参考历程/小智拉取说明.txt",
+      "bytes": 56,
+      "sha256": "d67dfa12c291219065d7b87fd8b8b982b4bb5be13f6afe5c6ac24dac676b2309",
+      "origin": "original-project-file"
+    },
+    {
+      "path": "Document/立创·实战派BK7258/2、参考历程/demo.zip",
+      "bytes": 811473,
+      "sha256": "3e08b55327a9e259bf49ef8e630e9c5cf64d32a81ce61bf56b25d6396f09ded1",
+      "origin": "original-project-file"
+    },
+    {
+      "path": "Document/立创·实战派BK7258/3、参考原理图/AIDK_AI玩具开发板_原理图.pdf",
+      "bytes": 1218044,
+      "sha256": "b10cf08785a1c8767d9b4c51d05e6c8685a4cb60a720b51022734d742149bb2d",
+      "origin": "original-project-file"
+    },
+    {
+      "path": "Document/立创·实战派BK7258/3、参考原理图/BK7258模组设计参考.pdf",
+      "bytes": 850067,
+      "sha256": "e6dd15d7b7eeafbda347732d0f2d55b27f9788fc1051b7199b21f6140dda6f23",
+      "origin": "original-project-file"
+    },
+    {
+      "path": "Document/立创·实战派BK7258/4、GPIO寄存器表/BK7258_GPIO_REG.xlsx",
+      "bytes": 16413,
+      "sha256": "37de29e62d32baa8cb3990358a2f3d3d0c4b9ac941e5f3f6390f1db5893cfd2b",
+      "origin": "original-project-file"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated outputs
+build/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.log
+
+# Tool and editor caches
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# External SDK checkout, to be provisioned separately
+/bk_avdk_smp_sdk/
