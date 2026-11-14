@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "value": {
+    "passed": false,
+    "counts": {
+      "fatalError": 4,
+      "error": 0,
+      "warn": 0
+    },
+    "total": 4,
+    "violations": [
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B1",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "cd5b184f90fdf5c5"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B2",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "b2444457ca4c661b"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B3",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "53bc3bdd6fe9faa7"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B4",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "fba68bfce9dee6cf"
+          }
+        ]
+      }
+    ]
+  }
+}

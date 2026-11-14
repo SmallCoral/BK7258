@@ -1,0 +1,4 @@
+{"type":"DOCHEAD","ticket":3928}||{"docType":"SCH","client":"f955e4ede76bdc8c","uuid":"9e882607dcaae1aa","updateTime":1794640800426,"version":"1794640800426","editVersion":"4.1.100","user":{"uuid":"9a9dbf9939e9483e8040442f63925264","username":"smallcoral","nickname":"smallcoral"}}|
+{"type":"META","ticket":4,"id":"META"}||{"title":"Schematic1","source":"","board":"e913249c812bf93a","zIndex":null}|
+{"type":"RULE","ticket":3926,"id":"[\"RULE\",\"TRACK\",\"copperThickness1oz\"]"}||{"ruleState":"DEFAULT","ruleContext":{"unit":"mm","track":{"isOpen":true,"content":[{"layerId":1,"stroDef":0.254,"stroMax":2.54,"stroMin":0.127}]}}}|
+{"type":"RULE","ticket":3927,"id":"[\"RULE\",\"TRACK\",\"copperThickness2oz\"]"}||{"ruleState":"NORMAL","ruleContext":{"unit":"mm","track":{"isOpen":true,"content":[{"layerId":1,"stroDef":0.254,"stroMax":2.54,"stroMin":0.203}]}}}

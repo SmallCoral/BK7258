@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "auditor": "/root/no_buttons_audit",
+  "summary": "Independently reconstructed all 51 nets from spec.parts: all 241 connected pins match built.nets exactly; all 66 parts and their pin assignments match the specification. SW1/SW2, C11/C12, R5, RESET_N and KEY_TALK_N are absent. U1.3/CEN and U1.10/GPIO28 have no external connections. LCD reset GPIO6/pad23, LCD enable GPIO7/pad22, SPI and UART assignments are preserved and agree with reference PDF page 1. VDDGPIO contains only U1.65 and C10.1, remains separate from 3V3, and C10.2 connects to GND. The manufacturer hardware guide confirms the internal reset pull-up and power-cycle reset. No PCB files were accessed.",
+  "source": "https://wiki.lckfb.com/zh-hans/bk7258md/bk7258-mod/hardware.html",
+  "findings": []
+}

@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "value": {
+    "passed": false,
+    "counts": {
+      "fatalError": 4,
+      "error": 0,
+      "warn": 8
+    },
+    "total": 12,
+    "violations": [
+      {
+        "type": "warn",
+        "rule": "SHOWDANDLING",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$3N13",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "a9565e25a54865c6"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B1",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "fba68bfce9dee6cf"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B2",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "53bc3bdd6fe9faa7"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B3",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "b2444457ca4c661b"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B4",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "cd5b184f90fdf5c5"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "ONENETNAME",
+        "net": "MICBIAS、MICP1、MICN1、AUDLP、AUDLN、AMP_PWR_EN、AMP_SD、MICP2、MICN2",
+        "primitives": [
+          {
+            "name": "$1N12",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "e609374dd9b99889"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "FLAGTONET",
+        "net": null,
+        "primitives": [
+          {
+            "name": "GND($2I27)",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "f6c1f2ba3b5a9038"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "FLAGTONET",
+        "net": null,
+        "primitives": [
+          {
+            "name": "3V3($2I14)",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "388c4837fde62142"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "ONENETNAME",
+        "net": "UART_CH_RX、UART_CH_TX",
+        "primitives": [
+          {
+            "name": "$2N10",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "01f8537d022b7a36"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "ONENETNAME",
+        "net": "CC1、USB_DP",
+        "primitives": [
+          {
+            "name": "$2N11",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "6a07f8c31f42cf04"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "FLAGTONET",
+        "net": null,
+        "primitives": [
+          {
+            "name": "GND($4I10)",
+            "designator": null,
+            "sheet": "ddc1f9e5177bc1bf",
+            "id": "b1ba7e0be8bc8d9b"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "ONENETNAME",
+        "net": "SPK_N、SPK_P",
+        "primitives": [
+          {
+            "name": "$5N23",
+            "designator": null,
+            "sheet": "2ed1b79c6dde9e18",
+            "id": "3ced5030fbbef574"
+          }
+        ]
+      }
+    ]
+  }
+}

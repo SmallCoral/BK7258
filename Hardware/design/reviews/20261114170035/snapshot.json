@@ -1,0 +1,43 @@
+{
+  "capturedAt": "2026-11-14T09:00:35.264Z",
+  "original": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite",
+  "stage": "C:\\Users\\sc\\AppData\\Local\\Temp\\desksprite-review-20261114170035",
+  "output": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\design\\reviews\\20261114170035",
+  "files": [
+    {
+      "title": "01_系统接口总览",
+      "uuid": "10506c4927cf0474",
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\01_系统接口总览.esch2",
+      "sha256": "f99d53c957ce94e57e32616a672f0c990456dd5a12826cc5e92000319a00c3a3",
+      "bytes": 226960
+    },
+    {
+      "title": "02_USB与电源",
+      "uuid": "0aac68bf205ccb35",
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\02_USB与电源.esch2",
+      "sha256": "29346a60fc6f9117defab8b924f37886a889c47c2b13e09a15603afa2e110d57",
+      "bytes": 537087
+    },
+    {
+      "title": "03_主控与按键",
+      "uuid": "ad03834b6ba18de0",
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\03_主控与按键.esch2",
+      "sha256": "116c5135857cee0644deec93caf0570910feaf2599009aa9ac53ae9e10811f78",
+      "bytes": 452826
+    },
+    {
+      "title": "04_显示接口",
+      "uuid": "ddc1f9e5177bc1bf",
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\04_显示接口.esch2",
+      "sha256": "a570f2ed427fd9fcb0365b0d5e23b76ccbc14fb36eef37409fb4610fc684ac09",
+      "bytes": 354977
+    },
+    {
+      "title": "05_采音与播放",
+      "uuid": "2ed1b79c6dde9e18",
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\05_采音与播放.esch2",
+      "sha256": "cf281f4e25b1882397ad6050b19e8cfbea3d6ad0d0d4d30b8cefe2ba366f45fe",
+      "bytes": 509798
+    }
+  ]
+}

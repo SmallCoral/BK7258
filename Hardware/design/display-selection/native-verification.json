@@ -1,0 +1,346 @@
+{
+  "pins": {
+    "J2": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 209.99999999999997,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e5",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 219.99999999999997,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e9",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 229.99999999999997,
+        "pinNumber": "3",
+        "pinName": "3",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e13",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 239.99999999999997,
+        "pinNumber": "4",
+        "pinName": "4",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e17",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 249.99999999999997,
+        "pinNumber": "5",
+        "pinName": "5",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e21",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 259.99999999999994,
+        "pinNumber": "6",
+        "pinName": "6",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e25",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 269.99999999999994,
+        "pinNumber": "7",
+        "pinName": "7",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e29",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 279.99999999999994,
+        "pinNumber": "8",
+        "pinName": "8",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e33",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 290,
+        "pinNumber": "9",
+        "pinName": "9",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e37",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 685,
+        "y": 300,
+        "pinNumber": "10",
+        "pinName": "10",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e41",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 720,
+        "y": 189.99999999999997,
+        "pinNumber": "11",
+        "pinName": "11",
+        "rotation": 270,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e45",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 720,
+        "y": 320,
+        "pinNumber": "12",
+        "pinName": "12",
+        "rotation": 90,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "6f7e34cc6dfac56c-e49",
+        "otherProperty": {},
+        "noConnected": false
+      }
+    ],
+    "R8": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 590,
+        "y": 270,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 0,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "IN",
+        "primitiveId": "5eeb0d9455a9b7a8-e3",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 550,
+        "y": 270,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "IN",
+        "primitiveId": "5eeb0d9455a9b7a8-e7",
+        "otherProperty": {},
+        "noConnected": false
+      }
+    ],
+    "R9": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 495,
+        "y": 220,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 0,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "IN",
+        "primitiveId": "6649ed43d9e8dd2f-e3",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 455,
+        "y": 220,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "IN",
+        "primitiveId": "6649ed43d9e8dd2f-e7",
+        "otherProperty": {},
+        "noConnected": false
+      }
+    ],
+    "C15": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 540,
+        "y": 190,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 90,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "5a0f163961f8ad47-e1",
+        "otherProperty": {},
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 540,
+        "y": 150,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 270,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "5a0f163961f8ad47-e7",
+        "otherProperty": {},
+        "noConnected": false
+      }
+    ]
+  },
+  "erc": [
+    {
+      "type": "fatalError",
+      "rule": "MISSFOOTPRINT",
+      "primitives": [
+        {
+          "primitiveId": "fba68bfce9dee6cf",
+          "sheet": "10506c4927cf0474",
+          "name": "B1"
+        }
+      ]
+    },
+    {
+      "type": "fatalError",
+      "rule": "MISSFOOTPRINT",
+      "primitives": [
+        {
+          "primitiveId": "53bc3bdd6fe9faa7",
+          "sheet": "10506c4927cf0474",
+          "name": "B2"
+        }
+      ]
+    },
+    {
+      "type": "fatalError",
+      "rule": "MISSFOOTPRINT",
+      "primitives": [
+        {
+          "primitiveId": "b2444457ca4c661b",
+          "sheet": "10506c4927cf0474",
+          "name": "B3"
+        }
+      ]
+    },
+    {
+      "type": "fatalError",
+      "rule": "MISSFOOTPRINT",
+      "primitives": [
+        {
+          "primitiveId": "cd5b184f90fdf5c5",
+          "sheet": "10506c4927cf0474",
+          "name": "B4"
+        }
+      ]
+    }
+  ]
+}

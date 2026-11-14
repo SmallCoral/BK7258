@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "value": {
+    "passed": false,
+    "counts": {
+      "fatalError": 4,
+      "error": 0,
+      "warn": 2
+    },
+    "total": 6,
+    "violations": [
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B1",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "fba68bfce9dee6cf"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B2",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "53bc3bdd6fe9faa7"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B3",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "b2444457ca4c661b"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B4",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "cd5b184f90fdf5c5"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "ONENETNAME",
+        "net": "USB_DP、CC1",
+        "primitives": [
+          {
+            "name": "$2N30",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "02ead9c570e874ef"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "FLAGTONET",
+        "net": null,
+        "primitives": [
+          {
+            "name": "GND($4I9)",
+            "designator": null,
+            "sheet": "ddc1f9e5177bc1bf",
+            "id": "b1ba7e0be8bc8d9b"
+          }
+        ]
+      }
+    ]
+  }
+}

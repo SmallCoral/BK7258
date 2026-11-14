@@ -1,0 +1,92 @@
+[
+  {
+    "ref": "D1",
+    "pin": "1",
+    "expected": "USB_DP",
+    "actual": "USB_DM"
+  },
+  {
+    "ref": "D1",
+    "pin": "3",
+    "expected": "USB_DM",
+    "actual": "$2N10"
+  },
+  {
+    "ref": "D1",
+    "pin": "4",
+    "expected": "USB_DM",
+    "actual": "$2N10"
+  },
+  {
+    "ref": "D1",
+    "pin": "6",
+    "expected": "USB_DP",
+    "actual": "USB_DM"
+  },
+  {
+    "ref": "J1",
+    "pin": "A6",
+    "expected": "USB_DP",
+    "actual": "USB_DM"
+  },
+  {
+    "ref": "J1",
+    "pin": "A7",
+    "expected": "USB_DM",
+    "actual": "$2N10"
+  },
+  {
+    "ref": "J1",
+    "pin": "B7",
+    "expected": "USB_DM",
+    "actual": "$2N10"
+  },
+  {
+    "ref": "J1",
+    "pin": "B6",
+    "expected": "USB_DP",
+    "actual": "USB_DM"
+  },
+  {
+    "ref": "J2",
+    "pin": "9",
+    "expected": "LCD_BLA",
+    "actual": "$4N17"
+  },
+  {
+    "ref": "R6",
+    "pin": "1",
+    "expected": "LCD_PWR_EN",
+    "actual": "GND"
+  },
+  {
+    "ref": "R6",
+    "pin": "2",
+    "expected": "GND",
+    "actual": "LCD_PWR_EN"
+  },
+  {
+    "ref": "R9",
+    "pin": "2",
+    "expected": "LCD_BLA",
+    "actual": "$4N17"
+  },
+  {
+    "ref": "R23",
+    "pin": "1",
+    "expected": "SPK_N",
+    "actual": "SPK_P"
+  },
+  {
+    "ref": "U2",
+    "pin": "1",
+    "expected": "USB_DP",
+    "actual": "USB_DM"
+  },
+  {
+    "ref": "U2",
+    "pin": "2",
+    "expected": "USB_DM",
+    "actual": "$2N10"
+  }
+]

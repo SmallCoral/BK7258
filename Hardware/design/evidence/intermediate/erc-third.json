@@ -1,0 +1,687 @@
+{
+  "ok": true,
+  "value": {
+    "passed": false,
+    "counts": {
+      "fatalError": 4,
+      "error": 0,
+      "warn": 39
+    },
+    "total": 43,
+    "violations": [
+      {
+        "type": "warn",
+        "rule": "SHOWDANDLING",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$3N26",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "a0e8c89a183bc66a"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B1",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "cd5b184f90fdf5c5"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B2",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "b2444457ca4c661b"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B3",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "53bc3bdd6fe9faa7"
+          }
+        ]
+      },
+      {
+        "type": "fatalError",
+        "rule": "MISSFOOTPRINT",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B4",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "fba68bfce9dee6cf"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B3",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "53bc3bdd6fe9faa7"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "B4",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "fba68bfce9dee6cf"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_PWR_EN",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "3a041654f39cb258"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_BL_N",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "a0d603055fc993fd"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_SCK",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "4bfa77cc916607d5"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_MOSI",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "be600b68ffbae538"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_CS_N",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "4e1e42790a2e5c4e"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_DC",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "cd6b4f00541a3aed"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_RST_N",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "cad94c11d0ded479"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "MICBIAS",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "95e981f7f984fbca"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "MICP1",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "9c53515d3c766f74"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "MICN1",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "1323c2e3223a2433"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "AUDLP",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "5b577a2ba9006b83"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "AUDLN",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "d6619caa24c2103e"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "AMP_PWR_EN",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "51d2a4a55f937a64"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "AMP_SD",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "26465cc66f4e3db8"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "MICP2",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "9f36e638f5988e5b"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "MICN2",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "7a4adec5c54ad425"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$1N20",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "541ccd9d0b0caf82"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$1N21",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "97c7d18cc1ccad21"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$1N23",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "2ba578ecc611924f"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$1N24",
+            "designator": null,
+            "sheet": "10506c4927cf0474",
+            "id": "0a7590bf54b31675"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I133",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "08c3414c229dc0d2"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I134",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "7f0ccfa99e1ee72b"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I135",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "88ca8c99f1e0b20e"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I136",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "fd356950be0ff4dd"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I137",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "1db224efad7ae740"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I138",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "45fc5c352c425fce"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "I139",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "cc8b58b882375eb3"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "GND",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e0"
+          },
+          {
+            "name": "3V3",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e4"
+          },
+          {
+            "name": "RST",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e8"
+          },
+          {
+            "name": "P20",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e12"
+          },
+          {
+            "name": "P21",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e16"
+          },
+          {
+            "name": "P22",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e20"
+          },
+          {
+            "name": "P23",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e24"
+          },
+          {
+            "name": "P24",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e28"
+          },
+          {
+            "name": "P25",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e32"
+          },
+          {
+            "name": "P28",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e36"
+          },
+          {
+            "name": "P1",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e40"
+          },
+          {
+            "name": "P0",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e44"
+          },
+          {
+            "name": "P9",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e48"
+          },
+          {
+            "name": "P8",
+            "designator": "U1",
+            "sheet": "ad03834b6ba18de0",
+            "id": "388e57479c78207e-e52"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "AMP_SD",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "12089b4adb200d61"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "LCD_BL_N",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "ec42d70a7dab0bfd"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "AMP_PWR_EN",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "d8b7d07653b9af67"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "RESET_N",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "b16ba01704fc6f1a"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "KEY_TALK_N",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "2fdf7657b10081e9"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$3N25",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "85be3c1aa726320b"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "NETOBJECTONGRID",
+        "net": null,
+        "primitives": [
+          {
+            "name": "$3N26",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "a0e8c89a183bc66a"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "ATTRMATCHCODE",
+        "net": null,
+        "primitives": [
+          {
+            "name": "D1($2I5)",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "96f7cf56cfb8e589"
+          },
+          {
+            "name": "F1($2I12)",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "94316f7397c66112"
+          },
+          {
+            "name": "L1($2I14)",
+            "designator": null,
+            "sheet": "0aac68bf205ccb35",
+            "id": "cd6a5ce592d7e484"
+          },
+          {
+            "name": "SW1($3I7)",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "c648a4bf0c094f77"
+          },
+          {
+            "name": "SW2($3I9)",
+            "designator": null,
+            "sheet": "ad03834b6ba18de0",
+            "id": "818396effd60a377"
+          },
+          {
+            "name": "Q1($4I10)",
+            "designator": null,
+            "sheet": "ddc1f9e5177bc1bf",
+            "id": "57511ec06adc570d"
+          },
+          {
+            "name": "J3($5I25)",
+            "designator": null,
+            "sheet": "2ed1b79c6dde9e18",
+            "id": "7d7bf047782b5cfb"
+          }
+        ]
+      }
+    ]
+  }
+}

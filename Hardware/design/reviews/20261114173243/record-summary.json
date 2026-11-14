@@ -1,0 +1,3386 @@
+[
+  {
+    "page": "01_系统接口总览",
+    "components": [
+      {
+        "id": "cd5b184f90fdf5c5",
+        "old": {
+          "ref": "B1",
+          "symbol": "09f44ada616224d6",
+          "device": "fed6bf66c90dea53",
+          "x": 270,
+          "y": 800,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "B4",
+          "symbol": "09f44ada616224d6",
+          "device": "fed6bf66c90dea53",
+          "x": 165,
+          "y": 625,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "b2444457ca4c661b",
+        "old": {
+          "ref": "B2",
+          "symbol": "f92ba9d9bb3f208b",
+          "device": "4215f1d627bb8cd1",
+          "x": 730,
+          "y": 760,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "B3",
+          "symbol": "f92ba9d9bb3f208b",
+          "device": "4215f1d627bb8cd1",
+          "x": 625,
+          "y": 585,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "53bc3bdd6fe9faa7",
+        "old": {
+          "ref": "B3",
+          "symbol": "a43633b5221b21ca",
+          "device": "98ad16bae6394320",
+          "x": 1240,
+          "y": 840,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "B2",
+          "symbol": "a43633b5221b21ca",
+          "device": "98ad16bae6394320",
+          "x": 1135,
+          "y": 670,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "fba68bfce9dee6cf",
+        "old": {
+          "ref": "B4",
+          "symbol": "5c50f64781a39a00",
+          "device": "2dc85d2eb372c19e",
+          "x": 1240,
+          "y": 410,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "B1",
+          "symbol": "5c50f64781a39a00",
+          "device": "2dc85d2eb372c19e",
+          "x": 1135,
+          "y": 235,
+          "rotation": 0
+        }
+      }
+    ],
+    "labelChanges": [
+      {
+        "id": "879826b76eaaf612",
+        "before": "UART_RX",
+        "after": "UART_RX",
+        "beforeAt": [
+          450,
+          805
+        ],
+        "afterAt": [
+          415,
+          625
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c8d273e0b8be7de3",
+        "before": "UART_TX",
+        "after": "UART_TX",
+        "beforeAt": [
+          450,
+          780
+        ],
+        "afterAt": [
+          340,
+          600
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "f655f5fb67f7d6cb",
+        "before": "LCD_PWR_EN",
+        "after": "LCD_PWR_EN",
+        "beforeAt": [
+          910,
+          965
+        ],
+        "afterAt": [
+          805,
+          785
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "0fecec8539104b1c",
+        "before": "LCD_BL_N",
+        "after": "LCD_BL_N",
+        "beforeAt": [
+          910,
+          940
+        ],
+        "afterAt": [
+          805,
+          760
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "85177c58792a91bf",
+        "before": "LCD_SCK",
+        "after": "LCD_SCK",
+        "beforeAt": [
+          910,
+          915
+        ],
+        "afterAt": [
+          805,
+          735
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "e71e6a4081dedbd2",
+        "before": "LCD_MOSI",
+        "after": "LCD_MOSI",
+        "beforeAt": [
+          910,
+          890
+        ],
+        "afterAt": [
+          805,
+          710
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "2f66db4174cc650d",
+        "before": "LCD_CS_N",
+        "after": "LCD_CS_N",
+        "beforeAt": [
+          910,
+          865
+        ],
+        "afterAt": [
+          805,
+          685
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "535cc95bad624e0e",
+        "before": "LCD_DC",
+        "after": "LCD_DC",
+        "beforeAt": [
+          910,
+          840
+        ],
+        "afterAt": [
+          805,
+          660
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "780cfb0052a32a59",
+        "before": "LCD_RST_N",
+        "after": "LCD_RST_N",
+        "beforeAt": [
+          910,
+          815
+        ],
+        "afterAt": [
+          805,
+          635
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "e2e5aa0f6276e1e1",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          1065,
+          790
+        ],
+        "afterAt": [
+          960,
+          620
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c7a5eee8ba2c37eb",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          1065,
+          736
+        ],
+        "afterAt": [
+          960,
+          561
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "3b7b401457573393",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          1065,
+          335
+        ],
+        "afterAt": [
+          960,
+          160
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "8c12919e2822b580",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          1065,
+          281
+        ],
+        "afterAt": [
+          960,
+          106
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "6721302541414c82",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          555,
+          970
+        ],
+        "afterAt": [
+          450,
+          795
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "822c6c5ed6bbb7bb",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          445,
+          806
+        ],
+        "afterAt": [
+          340,
+          631
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "36a6081bee698e6a",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          970,
+          610
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "ccf1d66683b80972",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          970,
+          585
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "683bd4262cc19650",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          390,
+          705
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "99ad2f73ee05bef8",
+        "after": "MICP1",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          585
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "dfa60329e7154016",
+        "after": "MICN2",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          410
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "25753a5b1b4d4282",
+        "after": "MICP2",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          435
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "24da95294bdab49a",
+        "after": "AMP_SD",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          460
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "b2d29a22814ceba3",
+        "after": "AMP_PWR_EN",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          485
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "820ecdb608e79107",
+        "after": "AUDLN",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          510
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "173dd7994df2cac7",
+        "after": "AUDLP",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          535
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "b68185e2d6c39618",
+        "after": "MICN1",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          560
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "b0bfffeccfe411c3",
+        "after": "MICBIAS",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          780,
+          610
+        ],
+        "parentChanged": true
+      }
+    ],
+    "deletedLabels": [
+      "MICBIAS",
+      "MICP1",
+      "MICN1",
+      "AUDLP",
+      "AUDLN",
+      "AMP_PWR_EN",
+      "AMP_SD",
+      "MICP2",
+      "MICN2"
+    ],
+    "wires": 24,
+    "lines": 53
+  },
+  {
+    "page": "02_USB与电源",
+    "components": [
+      {
+        "id": "050454d26dca9714",
+        "old": {
+          "ref": "J1",
+          "symbol": "3f8ba7867e473a8a",
+          "device": "f61444f14a398390",
+          "x": 250,
+          "y": 820,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "J1",
+          "symbol": "3f8ba7867e473a8a",
+          "device": "f61444f14a398390",
+          "x": 130,
+          "y": 445,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "2e85ca6446e6a6b4",
+        "old": {
+          "ref": "R1",
+          "symbol": "626c251acd13ed15",
+          "device": "35aa25d7a4182d06",
+          "x": 120,
+          "y": 770,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R1",
+          "symbol": "626c251acd13ed15",
+          "device": "35aa25d7a4182d06",
+          "x": 30,
+          "y": 425,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "12892608cd8e816b",
+        "old": {
+          "ref": "R2",
+          "symbol": "626c251acd13ed15",
+          "device": "35aa25d7a4182d06",
+          "x": 400,
+          "y": 770,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R2",
+          "symbol": "626c251acd13ed15",
+          "device": "35aa25d7a4182d06",
+          "x": 265,
+          "y": 415,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "96f7cf56cfb8e589",
+        "old": {
+          "ref": "D1",
+          "symbol": "995082b791fd3d78",
+          "device": "327d477001ca8e10",
+          "x": 620,
+          "y": 790,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "D1",
+          "symbol": "995082b791fd3d78",
+          "device": "327d477001ca8e10",
+          "x": 420,
+          "y": 415,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "7dae86a23ad55d02",
+        "old": {
+          "ref": "C28",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 780,
+          "y": 700,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C28",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 525,
+          "y": 380,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "7b549aceeeb0f250",
+        "old": {
+          "ref": "U2",
+          "symbol": "ae1c850512814ad3",
+          "device": "00fa73d53d6fb3f4",
+          "x": 1030,
+          "y": 790,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "U2",
+          "symbol": "ae1c850512814ad3",
+          "device": "00fa73d53d6fb3f4",
+          "x": 620,
+          "y": 415,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "721731cdb4bfa43d",
+        "old": {
+          "ref": "R3",
+          "symbol": "e3c26f348be5f309",
+          "device": "0df59713f9ccf4c8",
+          "x": 1190,
+          "y": 790,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R3",
+          "symbol": "e3c26f348be5f309",
+          "device": "0df59713f9ccf4c8",
+          "x": 750,
+          "y": 415,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "e1bbf21104119acb",
+        "old": {
+          "ref": "R4",
+          "symbol": "e3c26f348be5f309",
+          "device": "0df59713f9ccf4c8",
+          "x": 1190,
+          "y": 840,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R4",
+          "symbol": "e3c26f348be5f309",
+          "device": "0df59713f9ccf4c8",
+          "x": 750,
+          "y": 425,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "4f06600861945b18",
+        "old": {
+          "ref": "C1",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 940,
+          "y": 660,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C1",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 605,
+          "y": 350,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "aac458dffd9bc61d",
+        "old": {
+          "ref": "C2",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 1050,
+          "y": 660,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C2",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 640,
+          "y": 350,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "94316f7397c66112",
+        "old": {
+          "ref": "F1",
+          "symbol": "956e6d605614ea2f",
+          "device": "575f2f2c8b4c4772",
+          "x": 250,
+          "y": 410,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "F1",
+          "symbol": "956e6d605614ea2f",
+          "device": "575f2f2c8b4c4772",
+          "x": 170,
+          "y": 205,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "4cfbfa642218d199",
+        "old": {
+          "ref": "U3",
+          "symbol": "8005c261c7733096",
+          "device": "0dcb9dde019d1564",
+          "x": 560,
+          "y": 410,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "U3",
+          "symbol": "8005c261c7733096",
+          "device": "0dcb9dde019d1564",
+          "x": 315,
+          "y": 225,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "cd6a5ce592d7e484",
+        "old": {
+          "ref": "L1",
+          "symbol": "40efab08866dd2fe",
+          "device": "91e83a5bd2b44866",
+          "x": 780,
+          "y": 410,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "L1",
+          "symbol": "40efab08866dd2fe",
+          "device": "91e83a5bd2b44866",
+          "x": 460,
+          "y": 225,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "fc1ad0d1fa2c5619",
+        "old": {
+          "ref": "C3",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 360,
+          "y": 330,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C3",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 165,
+          "y": 155,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "dd050dac15804d59",
+        "old": {
+          "ref": "C4",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 455,
+          "y": 330,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C4",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 260,
+          "y": 155,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "3e2b9084a4ba0b7a",
+        "old": {
+          "ref": "C5",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 675,
+          "y": 480,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C5",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 415,
+          "y": 250,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "03e64d9aa08da3d3",
+        "old": {
+          "ref": "C6",
+          "symbol": "89b2d00883a4c6b6",
+          "device": "eec74f63286891ba",
+          "x": 920,
+          "y": 330,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C6",
+          "symbol": "89b2d00883a4c6b6",
+          "device": "eec74f63286891ba",
+          "x": 500,
+          "y": 155,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "12d92bbfabd328cc",
+        "old": {
+          "ref": "C7",
+          "symbol": "89b2d00883a4c6b6",
+          "device": "eec74f63286891ba",
+          "x": 1040,
+          "y": 330,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C7",
+          "symbol": "89b2d00883a4c6b6",
+          "device": "eec74f63286891ba",
+          "x": 545,
+          "y": 155,
+          "rotation": 270
+        }
+      }
+    ],
+    "labelChanges": [
+      {
+        "id": "013c9d3bd5e43a98",
+        "before": "UART_RX",
+        "after": "UART_RX",
+        "beforeAt": [
+          1235,
+          795
+        ],
+        "afterAt": [
+          775,
+          415
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "58e4ad05d8085b72",
+        "before": "UART_TX",
+        "after": "UART_TX",
+        "beforeAt": [
+          1235,
+          845
+        ],
+        "afterAt": [
+          775,
+          425
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "030045587d7451a8",
+        "before": "BUCK_BST",
+        "after": "BUCK_BST",
+        "beforeAt": [
+          620,
+          425
+        ],
+        "afterAt": [
+          375,
+          235
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "9b916bbed30e3fc5",
+        "before": "BUCK_SW",
+        "after": "BUCK_SW",
+        "beforeAt": [
+          620,
+          415
+        ],
+        "afterAt": [
+          350,
+          225
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "cf6db6879b01cdb6",
+        "before": "USB_VBUS",
+        "after": "USB_VBUS",
+        "beforeAt": [
+          210,
+          420
+        ],
+        "afterAt": [
+          130,
+          215
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "a9932ae327f4eebd",
+        "before": "USB_VBUS",
+        "after": "USB_VBUS",
+        "beforeAt": [
+          190,
+          840
+        ],
+        "afterAt": [
+          40,
+          465
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "fee390f5c4b7ffc0",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          940,
+          601
+        ],
+        "afterAt": [
+          605,
+          311
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "92766fcd697fc989",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          1095,
+          820
+        ],
+        "afterAt": [
+          690,
+          450
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "3e0fc5e73dadb937",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          505,
+          430
+        ],
+        "afterAt": [
+          260,
+          245
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "d6def93d2e1ecbab",
+        "before": "5V_SYS",
+        "after": "5V_SYS",
+        "beforeAt": [
+          290,
+          420
+        ],
+        "afterAt": [
+          210,
+          215
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "69d48defaaf98831",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          360,
+          271
+        ],
+        "afterAt": [
+          165,
+          101
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "a2cb8289934664e0",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          780,
+          641
+        ],
+        "afterAt": [
+          525,
+          306
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "f70a813ce0ea2274",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          555,
+          430
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "b62b240da372287b",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          452.5,
+          200
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "92e9d75a268bb2d6",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          342.5,
+          120
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "790c5f2e5450085c",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          252.5,
+          185
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "18e6a5a703dfd6ec",
+        "after": "UART_CH_TX",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          700,
+          415
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "4f7c3e272692429f",
+        "after": "UART_CH_RX",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          700,
+          425
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "15cd502076df2f2c",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          690,
+          405
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "ea7de74434a0b2bc",
+        "after": "CC2",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          195,
+          455
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "5d630f91c0197bac",
+        "after": "CC1",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          55,
+          445
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "6663faf4719332d1",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          67,
+          420
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "ad84ca339d6a1074",
+        "after": "USB_DM",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          60,
+          425
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "dccd8a8426e637bb",
+        "after": "USB_DP",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          60,
+          435
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "3bb54b0e684ef46a",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          74,
+          402.5
+        ],
+        "parentChanged": true
+      }
+    ],
+    "deletedLabels": [
+      "CC1",
+      "CC2",
+      "UART_CH_TX",
+      "UART_CH_RX",
+      "USB_DP",
+      "USB_DM"
+    ],
+    "wires": 18,
+    "lines": 117
+  },
+  {
+    "page": "03_主控与按键",
+    "components": [
+      {
+        "id": "388e57479c78207e",
+        "old": {
+          "ref": "U1",
+          "symbol": "a90500de4d1d7ded",
+          "device": "e34fad83ca0643d7",
+          "x": 480,
+          "y": 720,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "U1",
+          "symbol": "a90500de4d1d7ded",
+          "device": "e34fad83ca0643d7",
+          "x": 365,
+          "y": 355,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "7298746d337d9439",
+        "old": {
+          "ref": "U1",
+          "symbol": "a90500de4d1d7ded",
+          "device": "e34fad83ca0643d7",
+          "x": 1080,
+          "y": 720,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "U1",
+          "symbol": "a90500de4d1d7ded",
+          "device": "e34fad83ca0643d7",
+          "x": 675,
+          "y": 410,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "a70911722f388a05",
+        "old": {
+          "ref": "C8",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 180,
+          "y": 790,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C8",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 155,
+          "y": 435,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "21a818ec0520635a",
+        "old": {
+          "ref": "C9",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 280,
+          "y": 790,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C9",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 185,
+          "y": 435,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "1a1249de4fa64e57",
+        "old": {
+          "ref": "C10",
+          "symbol": "1bd1c5f7a167b070",
+          "device": "97a28ddbac8f4d29",
+          "x": 1270,
+          "y": 500,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C10",
+          "symbol": "1bd1c5f7a167b070",
+          "device": "97a28ddbac8f4d29",
+          "x": 710,
+          "y": 240,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "c648a4bf0c094f77",
+        "old": {
+          "ref": "SW1",
+          "symbol": "680414a6b3dabadd",
+          "device": "76b70dad8dee8ad1",
+          "x": 260,
+          "y": 460,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "SW1",
+          "symbol": "680414a6b3dabadd",
+          "device": "76b70dad8dee8ad1",
+          "x": 140,
+          "y": 350,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "b984658b98df3ae1",
+        "old": {
+          "ref": "C11",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 140,
+          "y": 400,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C11",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 95,
+          "y": 330,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "818396effd60a377",
+        "old": {
+          "ref": "SW2",
+          "symbol": "680414a6b3dabadd",
+          "device": "76b70dad8dee8ad1",
+          "x": 650,
+          "y": 390,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "SW2",
+          "symbol": "680414a6b3dabadd",
+          "device": "76b70dad8dee8ad1",
+          "x": 385,
+          "y": 115,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "3e60d6b4b1d3cad0",
+        "old": {
+          "ref": "R5",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 520,
+          "y": 480,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R5",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 510,
+          "y": 190,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "be9afd2ed3bafc0e",
+        "old": {
+          "ref": "C12",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 520,
+          "y": 320,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C12",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 345,
+          "y": 85,
+          "rotation": 270
+        }
+      }
+    ],
+    "labelChanges": [
+      {
+        "id": "b89197ffe32b47f4",
+        "before": "AMP_SD",
+        "after": "AMP_SD",
+        "beforeAt": [
+          365,
+          715
+        ],
+        "afterAt": [
+          255,
+          345
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "337ad4525807b14c",
+        "before": "AMP_PWR_EN",
+        "after": "AMP_PWR_EN",
+        "beforeAt": [
+          365,
+          645
+        ],
+        "afterAt": [
+          255,
+          275
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "f1b29d7876a95f6e",
+        "before": "AUDLN",
+        "after": "AUDLN",
+        "beforeAt": [
+          425,
+          575
+        ],
+        "afterAt": [
+          310,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "33f9c933cff6e69a",
+        "before": "AUDLP",
+        "after": "AUDLP",
+        "beforeAt": [
+          435,
+          575
+        ],
+        "afterAt": [
+          320,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c2aa156c6bd0f5da",
+        "before": "MICP1",
+        "after": "MICP1",
+        "beforeAt": [
+          445,
+          575
+        ],
+        "afterAt": [
+          330,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "57159e0d29d4b433",
+        "before": "MICN1",
+        "after": "MICN1",
+        "beforeAt": [
+          455,
+          575
+        ],
+        "afterAt": [
+          340,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c19b1f2cb9529d28",
+        "before": "MICP2",
+        "after": "MICP2",
+        "beforeAt": [
+          465,
+          575
+        ],
+        "afterAt": [
+          350,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "258a022768e1c2ec",
+        "before": "MICN2",
+        "after": "MICN2",
+        "beforeAt": [
+          475,
+          575
+        ],
+        "afterAt": [
+          360,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "fa50c5a09f54db64",
+        "before": "MICBIAS",
+        "after": "MICBIAS",
+        "beforeAt": [
+          485,
+          575
+        ],
+        "afterAt": [
+          370,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "4cd6d59c001f3aae",
+        "before": "LCD_DC",
+        "after": "LCD_DC",
+        "beforeAt": [
+          515,
+          575
+        ],
+        "afterAt": [
+          400,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "80a19006d5172497",
+        "before": "LCD_MOSI",
+        "after": "LCD_MOSI",
+        "beforeAt": [
+          525,
+          575
+        ],
+        "afterAt": [
+          410,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "0fc65a2ee4038b04",
+        "before": "LCD_CS_N",
+        "after": "LCD_CS_N",
+        "beforeAt": [
+          535,
+          575
+        ],
+        "afterAt": [
+          420,
+          210
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "fd2029fa37292786",
+        "before": "LCD_SCK",
+        "after": "LCD_SCK",
+        "beforeAt": [
+          605,
+          645
+        ],
+        "afterAt": [
+          490,
+          275
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "05dcbfa1d38a1935",
+        "before": "UART_RX",
+        "after": "UART_RX",
+        "beforeAt": [
+          605,
+          735
+        ],
+        "afterAt": [
+          490,
+          365
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "67f566c6860e3574",
+        "before": "UART_TX",
+        "after": "UART_TX",
+        "beforeAt": [
+          605,
+          745
+        ],
+        "afterAt": [
+          490,
+          375
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "e80f878036dfd1ac",
+        "before": "LCD_RST_N",
+        "after": "LCD_RST_N",
+        "beforeAt": [
+          970,
+          805
+        ],
+        "afterAt": [
+          560,
+          490
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "a02251cb0a00c909",
+        "before": "RESET_N",
+        "after": "RESET_N",
+        "beforeAt": [
+          365,
+          755
+        ],
+        "afterAt": [
+          230,
+          385
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c8db2022fda1aee4",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          520,
+          530
+        ],
+        "afterAt": [
+          510,
+          230
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "aa966870140e6167",
+        "before": "VIO",
+        "after": "VIO",
+        "beforeAt": [
+          1115,
+          585
+        ],
+        "afterAt": [
+          710,
+          275
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "86c6824d44bd8f80",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          140,
+          341
+        ],
+        "afterAt": [
+          135,
+          276
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "51ac962c3ff3928d",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          520,
+          261
+        ],
+        "afterAt": [
+          345,
+          26
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "94629a16ae4cc154",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          180,
+          840
+        ],
+        "afterAt": [
+          155,
+          475
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "9772fb4d6d147470",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          180,
+          731
+        ],
+        "afterAt": [
+          136,
+          405
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "0d10d5235ef90089",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          1270,
+          441
+        ],
+        "afterAt": [
+          710,
+          191
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "f53889e8569d670e",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          260,
+          405
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "0bfcf1bfde56edc5",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          220,
+          430
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "3f4674467b83e333",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          710,
+          265
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "0793d9625b871e45",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          670,
+          210
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "efa0cf4fa205150a",
+        "after": "LCD_PWR_EN",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          560,
+          480
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "6d02efeb5125de98",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          95,
+          305
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "36fb6996034771e0",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          345,
+          60
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "0e92eb3fcb3600fc",
+        "after": "KEY_TALK_N",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          255,
+          315
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "d8278ad18991204f",
+        "after": "LCD_BL_N",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          255,
+          325
+        ],
+        "parentChanged": true
+      }
+    ],
+    "deletedLabels": [
+      "LCD_BL_N",
+      "LCD_PWR_EN",
+      "KEY_TALK_N"
+    ],
+    "wires": 27,
+    "lines": 70
+  },
+  {
+    "page": "04_显示接口",
+    "components": [
+      {
+        "id": "42dfcb0e907dbb31",
+        "old": {
+          "ref": "U4",
+          "symbol": "c5908377e6214354",
+          "device": "8598c0c8d636fb83",
+          "x": 400,
+          "y": 770,
+          "rotation": 180
+        },
+        "now": {
+          "ref": "U4",
+          "symbol": "c5908377e6214354",
+          "device": "8598c0c8d636fb83",
+          "x": 505,
+          "y": 475,
+          "rotation": 180
+        }
+      },
+      {
+        "id": "ad228577eb71d4e9",
+        "old": {
+          "ref": "C13",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 170,
+          "y": 690,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C13",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 445,
+          "y": 440,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "ae602e6b641e755f",
+        "old": {
+          "ref": "C14",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 650,
+          "y": 690,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C14",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 640,
+          "y": 465,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "57e6dfd01e1c75a2",
+        "old": {
+          "ref": "R6",
+          "symbol": "43cee7bfbbb467ce",
+          "device": "1b0406cd5952ffc9",
+          "x": 250,
+          "y": 610,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R6",
+          "symbol": "43cee7bfbbb467ce",
+          "device": "1b0406cd5952ffc9",
+          "x": 405,
+          "y": 485,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "0cfc31020b3d02c7",
+        "old": {
+          "ref": "R7",
+          "symbol": "736e646756cb0469",
+          "device": "027afa001c130885",
+          "x": 550,
+          "y": 610,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R7",
+          "symbol": "736e646756cb0469",
+          "device": "027afa001c130885",
+          "x": 590,
+          "y": 485,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "6f7e34cc6dfac56c",
+        "old": {
+          "ref": "J2",
+          "symbol": "2ebc55691d5a68ab",
+          "device": "887877f4c493fc20",
+          "x": 1180,
+          "y": 730,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "J2",
+          "symbol": "2ebc55691d5a68ab",
+          "device": "887877f4c493fc20",
+          "x": 705,
+          "y": 255,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "5eeb0d9455a9b7a8",
+        "old": {
+          "ref": "R8",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 900,
+          "y": 830,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R8",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 570,
+          "y": 270,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "5a0f163961f8ad47",
+        "old": {
+          "ref": "C15",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 910,
+          "y": 640,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C15",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 540,
+          "y": 170,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "57511ec06adc570d",
+        "old": {
+          "ref": "Q1",
+          "symbol": "cf760038f84bf52f",
+          "device": "0a810c8fd6ac0689",
+          "x": 480,
+          "y": 390,
+          "rotation": 180
+        },
+        "now": {
+          "ref": "Q1",
+          "symbol": "cf760038f84bf52f",
+          "device": "0a810c8fd6ac0689",
+          "x": 355,
+          "y": 280,
+          "rotation": 180
+        }
+      },
+      {
+        "id": "6649ed43d9e8dd2f",
+        "old": {
+          "ref": "R9",
+          "symbol": "aa20d162174974f6",
+          "device": "4b10d5da9a38405c",
+          "x": 700,
+          "y": 390,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R9",
+          "symbol": "aa20d162174974f6",
+          "device": "4b10d5da9a38405c",
+          "x": 475,
+          "y": 220,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "9e8f5337a5993050",
+        "old": {
+          "ref": "R10",
+          "symbol": "bd4d3fc7dec90a41",
+          "device": "91d3bb02d03e6adf",
+          "x": 690,
+          "y": 470,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R10",
+          "symbol": "bd4d3fc7dec90a41",
+          "device": "91d3bb02d03e6adf",
+          "x": 470,
+          "y": 280,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "6239548d05998fae",
+        "old": {
+          "ref": "R11",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 570,
+          "y": 560,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R11",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 445,
+          "y": 310,
+          "rotation": 270
+        }
+      }
+    ],
+    "labelChanges": [
+      {
+        "id": "12f59ae46e77330d",
+        "before": "LCD_DC",
+        "after": "LCD_DC",
+        "beforeAt": [
+          1145,
+          780
+        ],
+        "afterAt": [
+          665,
+          300
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "885825bc62e5ea4f",
+        "before": "LCD_CS_N",
+        "after": "LCD_CS_N",
+        "beforeAt": [
+          1145,
+          760
+        ],
+        "afterAt": [
+          665,
+          280
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "8bdede4b958d5e88",
+        "before": "LCD_BL_N",
+        "after": "LCD_BL_N",
+        "beforeAt": [
+          735,
+          475
+        ],
+        "afterAt": [
+          500,
+          280
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "df3e14254e2b055a",
+        "before": "LCD_ISET",
+        "after": "LCD_ISET",
+        "beforeAt": [
+          465,
+          785
+        ],
+        "afterAt": [
+          550,
+          485
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "1ae42f4e63b7b197",
+        "before": "LCD_PWR_EN",
+        "after": "LCD_PWR_EN",
+        "beforeAt": [
+          345,
+          785
+        ],
+        "afterAt": [
+          465,
+          485
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "f7f5908d6282f892",
+        "before": "LCD_RST_N",
+        "after": "LCD_RST_N",
+        "beforeAt": [
+          1145,
+          750
+        ],
+        "afterAt": [
+          665,
+          270
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "63e895b2aa35a409",
+        "before": "BL_GATE",
+        "after": "BL_GATE",
+        "beforeAt": [
+          525,
+          395
+        ],
+        "afterAt": [
+          400,
+          280
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "32cd430b9bdd1cc5",
+        "before": "LCD_3V3",
+        "after": "LCD_3V3",
+        "beforeAt": [
+          460,
+          770
+        ],
+        "afterAt": [
+          565,
+          455
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "dc3f76fe3e45d1ad",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          340,
+          770
+        ],
+        "afterAt": [
+          445,
+          475
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "2f67b0fcd245dbef",
+        "before": "LCD_3V3",
+        "after": "LCD_3V3",
+        "beforeAt": [
+          570,
+          610
+        ],
+        "afterAt": [
+          445,
+          355
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "42333859574b5a5c",
+        "before": "LCD_3V3",
+        "after": "LCD_3V3",
+        "beforeAt": [
+          900,
+          880
+        ],
+        "afterAt": [
+          540,
+          285
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c4222346e7a2c1a6",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          250,
+          551
+        ],
+        "afterAt": [
+          600,
+          386
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "d0eac18ddc27c6db",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          910,
+          581
+        ],
+        "afterAt": [
+          540,
+          111
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "4fa39954f49303f0",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          545,
+          270
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "cdf825b37adee108",
+        "after": "LCD_MOSI",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          665,
+          290
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "6cc364212dd1c019",
+        "after": "LCD_SCK",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          665,
+          260
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "52f9c256ac61a969",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          600,
+          470
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "95e538ccbe7fb962",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          345,
+          305
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "824dd56b6b7fc759",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          620,
+          465
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "919a29a2aacac7a5",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          445,
+          465
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "ed4df4b094760c05",
+        "after": "BL_SW",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          345,
+          195
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "8e2a1c7bda0f57ad",
+        "after": "LCD_BLA",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          665,
+          220
+        ],
+        "parentChanged": true
+      }
+    ],
+    "deletedLabels": [
+      "LCD_MOSI",
+      "LCD_SCK",
+      "LCD_BLA",
+      "BL_SW"
+    ],
+    "wires": 17,
+    "lines": 56
+  },
+  {
+    "page": "05_采音与播放",
+    "components": [
+      {
+        "id": "8c048375cf67d495",
+        "old": {
+          "ref": "MIC1",
+          "symbol": "b312d85b89e1f56d",
+          "device": "2ac1a917d22454e5",
+          "x": 380,
+          "y": 820,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "MIC1",
+          "symbol": "b312d85b89e1f56d",
+          "device": "2ac1a917d22454e5",
+          "x": 295,
+          "y": 495,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "0bb592c526a0fe2a",
+        "old": {
+          "ref": "R12",
+          "symbol": "c71fce51a421dc81",
+          "device": "a8c38383e45bf261",
+          "x": 530,
+          "y": 900,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R12",
+          "symbol": "c71fce51a421dc81",
+          "device": "a8c38383e45bf261",
+          "x": 405,
+          "y": 500,
+          "rotation": 180
+        }
+      },
+      {
+        "id": "74c808da6d7edd3b",
+        "old": {
+          "ref": "C16",
+          "symbol": "495173f9f87fdd80",
+          "device": "17043aedd9cce864",
+          "x": 610,
+          "y": 780,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C16",
+          "symbol": "495173f9f87fdd80",
+          "device": "17043aedd9cce864",
+          "x": 380,
+          "y": 475,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "604ff725a8151e9e",
+        "old": {
+          "ref": "C17",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 220,
+          "y": 825,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "C17",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 210,
+          "y": 500,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "03c65bb6f48aab66",
+        "old": {
+          "ref": "C18",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 220,
+          "y": 690,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "C18",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 210,
+          "y": 475,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "eb9f3de1ab288b01",
+        "old": {
+          "ref": "R13",
+          "symbol": "d988cd0b7d6dc75f",
+          "device": "7a380f2d67a000cb",
+          "x": 530,
+          "y": 630,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R13",
+          "symbol": "d988cd0b7d6dc75f",
+          "device": "7a380f2d67a000cb",
+          "x": 435,
+          "y": 455,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "1fcfe82371eb645d",
+        "old": {
+          "ref": "U5",
+          "symbol": "c5908377e6214354",
+          "device": "8598c0c8d636fb83",
+          "x": 1030,
+          "y": 830,
+          "rotation": 180
+        },
+        "now": {
+          "ref": "U5",
+          "symbol": "c5908377e6214354",
+          "device": "8598c0c8d636fb83",
+          "x": 685,
+          "y": 505,
+          "rotation": 180
+        }
+      },
+      {
+        "id": "88202e680ea2a6c9",
+        "old": {
+          "ref": "C19",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 820,
+          "y": 750,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C19",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 565,
+          "y": 470,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "a28f0a519c0b41d3",
+        "old": {
+          "ref": "C20",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 1270,
+          "y": 750,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C20",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 770,
+          "y": 460,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "74b9880090c6a245",
+        "old": {
+          "ref": "R14",
+          "symbol": "43cee7bfbbb467ce",
+          "device": "1b0406cd5952ffc9",
+          "x": 890,
+          "y": 650,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R14",
+          "symbol": "43cee7bfbbb467ce",
+          "device": "1b0406cd5952ffc9",
+          "x": 590,
+          "y": 470,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "5eec7ba37b0c4b66",
+        "old": {
+          "ref": "R15",
+          "symbol": "736e646756cb0469",
+          "device": "027afa001c130885",
+          "x": 1160,
+          "y": 650,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R15",
+          "symbol": "736e646756cb0469",
+          "device": "027afa001c130885",
+          "x": 745,
+          "y": 460,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "1ad87428b40923a9",
+        "old": {
+          "ref": "U6",
+          "symbol": "b29cb95471b03679",
+          "device": "8040afcb8678e9e6",
+          "x": 750,
+          "y": 390,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "U6",
+          "symbol": "b29cb95471b03679",
+          "device": "8040afcb8678e9e6",
+          "x": 335,
+          "y": 200,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "f643666be5c33109",
+        "old": {
+          "ref": "R16",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 550,
+          "y": 540,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R16",
+          "symbol": "79e7541b0f8a203c",
+          "device": "63a4f05ecd11ca66",
+          "x": 170,
+          "y": 285,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "7e6b50a41042ade2",
+        "old": {
+          "ref": "R17",
+          "symbol": "a848090d81f88c11",
+          "device": "54889b0ff82172ac",
+          "x": 650,
+          "y": 620,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R17",
+          "symbol": "a848090d81f88c11",
+          "device": "54889b0ff82172ac",
+          "x": 230,
+          "y": 310,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "9d3997ae7f5f88de",
+        "old": {
+          "ref": "C21",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 580,
+          "y": 430,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C21",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 205,
+          "y": 255,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "c7e731534e80edd6",
+        "old": {
+          "ref": "C22",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 200,
+          "y": 340,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "C22",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 105,
+          "y": 195,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "5cd6771e570769f2",
+        "old": {
+          "ref": "R18",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 350,
+          "y": 340,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R18",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 165,
+          "y": 195,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "b3bdbd8d9ffab7d1",
+        "old": {
+          "ref": "C23",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 200,
+          "y": 240,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "C23",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 155,
+          "y": 125,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "1965f984bbac7f1a",
+        "old": {
+          "ref": "R19",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 350,
+          "y": 240,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R19",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 240,
+          "y": 125,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "7585999471c5257a",
+        "old": {
+          "ref": "R20",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 470,
+          "y": 350,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "R20",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 215,
+          "y": 175,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "5972fab79bc48b46",
+        "old": {
+          "ref": "R21",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 740,
+          "y": 200,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R21",
+          "symbol": "6be8ddbacd692b3b",
+          "device": "8f3ee6e54f5dd2fe",
+          "x": 345,
+          "y": 125,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "2a9801244e7ebaf8",
+        "old": {
+          "ref": "C24",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 940,
+          "y": 470,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C24",
+          "symbol": "5a5c156635f9ea21",
+          "device": "8e353c345c4c0942",
+          "x": 525,
+          "y": 260,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "65e2aab22c226239",
+        "old": {
+          "ref": "C25",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 1050,
+          "y": 470,
+          "rotation": 270
+        },
+        "now": {
+          "ref": "C25",
+          "symbol": "b5f77e39c782731b",
+          "device": "ac605443cf4b9608",
+          "x": 550,
+          "y": 260,
+          "rotation": 270
+        }
+      },
+      {
+        "id": "7d7bf047782b5cfb",
+        "old": {
+          "ref": "J3",
+          "symbol": "191202b93f646795",
+          "device": "7f5013047f2c403b",
+          "x": 1250,
+          "y": 390,
+          "rotation": 180
+        },
+        "now": {
+          "ref": "J3",
+          "symbol": "191202b93f646795",
+          "device": "7f5013047f2c403b",
+          "x": 660,
+          "y": 200,
+          "rotation": 180
+        }
+      },
+      {
+        "id": "2059318a3be1ed96",
+        "old": {
+          "ref": "R22",
+          "symbol": "91018e8eb564c1f7",
+          "device": "5d89e425b0be3bc8",
+          "x": 1000,
+          "y": 290,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R22",
+          "symbol": "91018e8eb564c1f7",
+          "device": "5d89e425b0be3bc8",
+          "x": 585,
+          "y": 100,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "3756a26c7090b250",
+        "old": {
+          "ref": "C26",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 1160,
+          "y": 290,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "C26",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 650,
+          "y": 100,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "c60a0f3e3d7bc21b",
+        "old": {
+          "ref": "R23",
+          "symbol": "91018e8eb564c1f7",
+          "device": "5d89e425b0be3bc8",
+          "x": 1000,
+          "y": 200,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "R23",
+          "symbol": "91018e8eb564c1f7",
+          "device": "5d89e425b0be3bc8",
+          "x": 585,
+          "y": 70,
+          "rotation": 0
+        }
+      },
+      {
+        "id": "cb17db554c0a8a1f",
+        "old": {
+          "ref": "C27",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 1160,
+          "y": 200,
+          "rotation": 0
+        },
+        "now": {
+          "ref": "C27",
+          "symbol": "28fc4c9a26d3bcf5",
+          "device": "416147cb0e035b47",
+          "x": 650,
+          "y": 70,
+          "rotation": 0
+        }
+      }
+    ],
+    "labelChanges": [
+      {
+        "id": "d3164a37de4088d5",
+        "before": "MICP1",
+        "after": "MICP1",
+        "beforeAt": [
+          185,
+          830
+        ],
+        "afterAt": [
+          170,
+          500
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "776c7e8e5e4375ac",
+        "before": "MICN1",
+        "after": "MICN1",
+        "beforeAt": [
+          185,
+          695
+        ],
+        "afterAt": [
+          170,
+          475
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "15a77420973f1909",
+        "before": "AUDLP",
+        "after": "AUDLP",
+        "beforeAt": [
+          165,
+          345
+        ],
+        "afterAt": [
+          80,
+          195
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "54bc007a8f136666",
+        "before": "AUDLN",
+        "after": "AUDLN",
+        "beforeAt": [
+          165,
+          245
+        ],
+        "afterAt": [
+          120,
+          125
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "9de177e85b9d73a4",
+        "before": "MICP2",
+        "after": "MICP2",
+        "beforeAt": [
+          1205,
+          295
+        ],
+        "afterAt": [
+          695,
+          100
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "d08a0ffe7630e7af",
+        "before": "MICN2",
+        "after": "MICN2",
+        "beforeAt": [
+          1205,
+          205
+        ],
+        "afterAt": [
+          695,
+          70
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "10a014c45947f783",
+        "before": "MIC_OUT",
+        "after": "MIC_OUT",
+        "beforeAt": [
+          330,
+          830
+        ],
+        "afterAt": [
+          245,
+          500
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "e48b697d6ce3c249",
+        "before": "AMP_ISET",
+        "after": "AMP_ISET",
+        "beforeAt": [
+          1095,
+          845
+        ],
+        "afterAt": [
+          745,
+          515
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "66d180e5d4d4717a",
+        "before": "AMP_PWR_EN",
+        "after": "AMP_PWR_EN",
+        "beforeAt": [
+          975,
+          845
+        ],
+        "afterAt": [
+          630,
+          515
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "1c715c932ee56f60",
+        "before": "AEC_P",
+        "after": "AEC_P",
+        "beforeAt": [
+          1045,
+          295
+        ],
+        "afterAt": [
+          610,
+          100
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "64fd2b6081e2e9d6",
+        "before": "MIC_VDD",
+        "after": "MIC_VDD",
+        "beforeAt": [
+          440,
+          830
+        ],
+        "afterAt": [
+          335,
+          500
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "37baff93929f47d2",
+        "before": "PA_SD",
+        "after": "PA_SD",
+        "beforeAt": [
+          685,
+          410
+        ],
+        "afterAt": [
+          280,
+          215
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "4c488a1c04d68887",
+        "before": "PA_INP",
+        "after": "PA_INP",
+        "beforeAt": [
+          685,
+          390
+        ],
+        "afterAt": [
+          265,
+          195
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "d109360817b74b3f",
+        "before": "PA_INN",
+        "after": "PA_INN",
+        "beforeAt": [
+          685,
+          380
+        ],
+        "afterAt": [
+          265,
+          185
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "34a83c79a76bf0d0",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          570,
+          611
+        ],
+        "afterAt": [
+          470,
+          436
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "ce75ad673c0bc271",
+        "before": "AMP_3V3",
+        "after": "AMP_3V3",
+        "beforeAt": [
+          1090,
+          830
+        ],
+        "afterAt": [
+          770,
+          505
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "e6584873e092f0ba",
+        "before": "3V3",
+        "after": "3V3",
+        "beforeAt": [
+          970,
+          830
+        ],
+        "afterAt": [
+          565,
+          504.9999999999999
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "83e280001b4b93c6",
+        "before": "AMP_3V3",
+        "after": "AMP_3V3",
+        "beforeAt": [
+          650,
+          670
+        ],
+        "afterAt": [
+          230,
+          350
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "7ffc55e2b6411fcb",
+        "before": "AGND",
+        "after": "AGND",
+        "beforeAt": [
+          580,
+          371
+        ],
+        "afterAt": [
+          205,
+          206
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "32380049c779b0c6",
+        "before": "AGND",
+        "after": "AGND",
+        "beforeAt": [
+          490,
+          611
+        ],
+        "afterAt": [
+          390,
+          436
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "81cfd141fce12284",
+        "before": "GND",
+        "after": "GND",
+        "beforeAt": [
+          890,
+          591
+        ],
+        "afterAt": [
+          685,
+          416
+        ],
+        "parentChanged": false
+      },
+      {
+        "id": "c9db1121b647a478",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          735,
+          505
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "9ad4c7433b9e6d6b",
+        "after": "AMP_SD",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          130,
+          285
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "64b09de306ca99a7",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          725,
+          495
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "6c6832b19420765c",
+        "after": "MICBIAS",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          430,
+          500
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "9809df25eb07f492",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          390,
+          455
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "8b538a86e5d049fc",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          590,
+          495
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "f29b3448cdaf8a5c",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          405,
+          230
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "b25ce9ef25c3b1b6",
+        "after": "PA_CINP",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          125,
+          195
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "d71b5539fbc6a896",
+        "after": "PA_CINN",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          180,
+          125
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "23bf80f4015d1aad",
+        "after": "",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          415,
+          295
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "5ba5d258c9be1d69",
+        "after": "PA_BYPASS",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          270,
+          205
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "c562ce05de1a7aea",
+        "after": "AEC_N",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          605,
+          70
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "7fc395fa93c9c836",
+        "after": "SPK_N",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          430,
+          215
+        ],
+        "parentChanged": true
+      },
+      {
+        "id": "52dee6614eaa56e8",
+        "after": "SPK_P",
+        "beforeAt": [
+          null,
+          null
+        ],
+        "afterAt": [
+          430,
+          185
+        ],
+        "parentChanged": true
+      }
+    ],
+    "deletedLabels": [
+      "MICBIAS",
+      "AMP_SD",
+      "PA_CINP",
+      "PA_CINN",
+      "AEC_N",
+      "PA_BYPASS",
+      "SPK_N",
+      "SPK_P"
+    ],
+    "wires": 29,
+    "lines": 91
+  }
+]

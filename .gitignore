@@ -23,3 +23,11 @@ Thumbs.db
 
 # External SDK checkout, to be provisioned separately
 /bk_avdk_smp_sdk/
+
+# Local EDA exports, caches, and cancelled PCB experiments
+/Hardware/ProPrj_*.epro2
+/Hardware/**/*_backup/
+/Hardware/design/library-cache.json
+/Hardware/design/pcb-routing/
+/Hardware/design/optimize-pcb.js
+/Hardware/design/**/*.zip

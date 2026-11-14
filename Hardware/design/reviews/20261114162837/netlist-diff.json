@@ -1,0 +1,607 @@
+{
+  "differences": [
+    {
+      "ref": "B1",
+      "pin": "1",
+      "before": "3V3",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "B1",
+      "pin": "2",
+      "before": "GND",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "B1",
+      "pin": "3",
+      "before": "UART_RX",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "B1",
+      "pin": "4",
+      "before": "UART_TX",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "B2",
+      "pin": "1",
+      "before": "3V3",
+      "after": "LCD_PWR_EN"
+    },
+    {
+      "ref": "B2",
+      "pin": "2",
+      "before": "GND",
+      "after": "LCD_BL_N"
+    },
+    {
+      "ref": "B2",
+      "pin": "3",
+      "before": "UART_RX",
+      "after": "LCD_SCK"
+    },
+    {
+      "ref": "B2",
+      "pin": "4",
+      "before": "UART_TX",
+      "after": "LCD_MOSI"
+    },
+    {
+      "ref": "B2",
+      "pin": "5",
+      "before": "LCD_PWR_EN",
+      "after": "LCD_CS_N"
+    },
+    {
+      "ref": "B2",
+      "pin": "6",
+      "before": "LCD_BL_N",
+      "after": "LCD_DC"
+    },
+    {
+      "ref": "B2",
+      "pin": "7",
+      "before": "LCD_SCK",
+      "after": "LCD_RST_N"
+    },
+    {
+      "ref": "B2",
+      "pin": "8",
+      "before": "LCD_MOSI",
+      "after": "3V3"
+    },
+    {
+      "ref": "B2",
+      "pin": "9",
+      "before": "LCD_CS_N",
+      "after": "GND"
+    },
+    {
+      "ref": "B2",
+      "pin": "10",
+      "before": "LCD_DC"
+    },
+    {
+      "ref": "B2",
+      "pin": "11",
+      "before": "LCD_RST_N"
+    },
+    {
+      "ref": "B2",
+      "pin": "12",
+      "before": "MICBIAS"
+    },
+    {
+      "ref": "B2",
+      "pin": "13",
+      "before": "MICP1"
+    },
+    {
+      "ref": "B2",
+      "pin": "14",
+      "before": "MICN1"
+    },
+    {
+      "ref": "B2",
+      "pin": "15",
+      "before": "AUDLP"
+    },
+    {
+      "ref": "B2",
+      "pin": "16",
+      "before": "AUDLN"
+    },
+    {
+      "ref": "B2",
+      "pin": "17",
+      "before": "AMP_PWR_EN"
+    },
+    {
+      "ref": "B2",
+      "pin": "18",
+      "before": "AMP_SD"
+    },
+    {
+      "ref": "B2",
+      "pin": "19",
+      "before": "MICP2"
+    },
+    {
+      "ref": "B2",
+      "pin": "20",
+      "before": "MICN2"
+    },
+    {
+      "ref": "B3",
+      "pin": "1",
+      "before": "LCD_PWR_EN",
+      "after": "3V3"
+    },
+    {
+      "ref": "B3",
+      "pin": "2",
+      "before": "LCD_BL_N",
+      "after": "GND"
+    },
+    {
+      "ref": "B3",
+      "pin": "3",
+      "before": "LCD_SCK",
+      "after": "UART_RX"
+    },
+    {
+      "ref": "B3",
+      "pin": "4",
+      "before": "LCD_MOSI",
+      "after": "UART_TX"
+    },
+    {
+      "ref": "B3",
+      "pin": "5",
+      "before": "LCD_CS_N",
+      "after": "LCD_PWR_EN"
+    },
+    {
+      "ref": "B3",
+      "pin": "6",
+      "before": "LCD_DC",
+      "after": "LCD_BL_N"
+    },
+    {
+      "ref": "B3",
+      "pin": "7",
+      "before": "LCD_RST_N",
+      "after": "LCD_SCK"
+    },
+    {
+      "ref": "B3",
+      "pin": "8",
+      "before": "3V3",
+      "after": "LCD_MOSI"
+    },
+    {
+      "ref": "B3",
+      "pin": "9",
+      "before": "GND",
+      "after": "LCD_CS_N"
+    },
+    {
+      "ref": "B4",
+      "pin": "1",
+      "before": "MICBIAS",
+      "after": "3V3"
+    },
+    {
+      "ref": "B4",
+      "pin": "2",
+      "before": "MICP1",
+      "after": "GND"
+    },
+    {
+      "ref": "B4",
+      "pin": "3",
+      "before": "MICN1",
+      "after": "UART_RX"
+    },
+    {
+      "ref": "B4",
+      "pin": "4",
+      "before": "AUDLP",
+      "after": "UART_TX"
+    },
+    {
+      "ref": "B4",
+      "pin": "5",
+      "before": "AUDLN"
+    },
+    {
+      "ref": "B4",
+      "pin": "6",
+      "before": "AMP_PWR_EN"
+    },
+    {
+      "ref": "B4",
+      "pin": "7",
+      "before": "AMP_SD"
+    },
+    {
+      "ref": "B4",
+      "pin": "8",
+      "before": "MICP2"
+    },
+    {
+      "ref": "B4",
+      "pin": "9",
+      "before": "MICN2"
+    },
+    {
+      "ref": "B4",
+      "pin": "10",
+      "before": "3V3"
+    },
+    {
+      "ref": "B4",
+      "pin": "11",
+      "before": "GND"
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "before": "KEY_TALK_N",
+      "after": "$3N14"
+    },
+    {
+      "ref": "C17",
+      "pin": "1",
+      "before": "MICP1",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "before": "MICN1",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "before": "AUDLP",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "C23",
+      "pin": "1",
+      "before": "AUDLN",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "C26",
+      "pin": "2",
+      "before": "MICP2",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "C27",
+      "pin": "2",
+      "before": "MICN2",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "before": "USB_DP",
+      "after": "USB_DM"
+    },
+    {
+      "ref": "D1",
+      "pin": "3",
+      "before": "USB_DM",
+      "after": "$2N15"
+    },
+    {
+      "ref": "D1",
+      "pin": "4",
+      "before": "USB_DM",
+      "after": "$2N15"
+    },
+    {
+      "ref": "D1",
+      "pin": "6",
+      "before": "USB_DP",
+      "after": "USB_DM"
+    },
+    {
+      "ref": "J1",
+      "pin": "A6",
+      "before": "USB_DP",
+      "after": "USB_DM"
+    },
+    {
+      "ref": "J1",
+      "pin": "A7",
+      "before": "USB_DM",
+      "after": "$2N15"
+    },
+    {
+      "ref": "J1",
+      "pin": "B7",
+      "before": "USB_DM",
+      "after": "$2N15"
+    },
+    {
+      "ref": "J1",
+      "pin": "B6",
+      "before": "USB_DP",
+      "after": "USB_DM"
+    },
+    {
+      "ref": "J1",
+      "pin": "B5",
+      "before": "CC2",
+      "after": "GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "9",
+      "before": "LCD_BLA",
+      "after": "GND"
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "before": "SPK_P",
+      "after": "SPK_N"
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "before": "CC2",
+      "after": "GND"
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "before": "UART_CH_TX",
+      "after": "3V3"
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "before": "UART_CH_RX",
+      "after": "3V3"
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "before": "KEY_TALK_N",
+      "after": "$3N14"
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "before": "LCD_PWR_EN",
+      "after": "GND"
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "before": "GND",
+      "after": "LCD_PWR_EN"
+    },
+    {
+      "ref": "R9",
+      "pin": "2",
+      "before": "LCD_BLA",
+      "after": "GND"
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "before": "MICBIAS",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "R16",
+      "pin": "1",
+      "before": "AMP_SD",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "R21",
+      "pin": "2",
+      "before": "SPK_P",
+      "after": "SPK_N"
+    },
+    {
+      "ref": "R22",
+      "pin": "1",
+      "before": "SPK_P",
+      "after": "SPK_N"
+    },
+    {
+      "ref": "SW2",
+      "pin": "1",
+      "before": "KEY_TALK_N",
+      "after": "$3N14"
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "before": "AMP_SD",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "before": "LCD_BL_N",
+      "after": "KEY_TALK_N"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "before": "KEY_TALK_N",
+      "after": "$3N14"
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "before": "AUDLN",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "before": "AUDLP",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "before": "MICP1",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "18",
+      "before": "MICN1",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "19",
+      "before": "MICP2",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "20",
+      "before": "MICN2",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "21",
+      "before": "MICBIAS",
+      "after": "AMP_PWR_EN"
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "before": "USB_DP",
+      "after": "USB_DM"
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "before": "USB_DM",
+      "after": "$2N15"
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "before": "UART_CH_TX",
+      "after": "3V3"
+    },
+    {
+      "ref": "U2",
+      "pin": "9",
+      "before": "UART_CH_RX",
+      "after": "3V3"
+    },
+    {
+      "ref": "U6",
+      "pin": "5",
+      "before": "SPK_P",
+      "after": "SPK_N"
+    }
+  ],
+  "mergedNetworks": {
+    "3V3": [
+      null,
+      "LCD_MOSI",
+      "LCD_PWR_EN",
+      "MICBIAS",
+      "3V3",
+      "UART_CH_TX",
+      "UART_CH_RX"
+    ],
+    "AMP_PWR_EN": [
+      "3V3",
+      "GND",
+      "UART_RX",
+      "UART_TX",
+      null,
+      "MICP1",
+      "MICN1",
+      "AUDLP",
+      "AUDLN",
+      "MICP2",
+      "MICN2",
+      "MICBIAS",
+      "AMP_PWR_EN",
+      "AMP_SD"
+    ],
+    "GND": [
+      null,
+      "LCD_CS_N",
+      "LCD_BL_N",
+      "MICP1",
+      "GND",
+      "CC2",
+      "LCD_BLA",
+      "LCD_PWR_EN"
+    ],
+    "LCD_BL_N": [
+      "GND",
+      "LCD_DC",
+      "LCD_BL_N"
+    ],
+    "LCD_CS_N": [
+      "LCD_PWR_EN",
+      "GND",
+      "LCD_CS_N"
+    ],
+    "LCD_DC": [
+      "LCD_BL_N",
+      null,
+      "LCD_DC"
+    ],
+    "LCD_MOSI": [
+      "UART_TX",
+      "3V3",
+      "LCD_MOSI"
+    ],
+    "LCD_PWR_EN": [
+      "3V3",
+      "LCD_CS_N",
+      "GND",
+      "LCD_PWR_EN"
+    ],
+    "LCD_RST_N": [
+      "LCD_SCK",
+      null,
+      "LCD_RST_N"
+    ],
+    "LCD_SCK": [
+      "UART_RX",
+      "LCD_RST_N",
+      "LCD_SCK"
+    ],
+    "SPK_N": [
+      "SPK_P",
+      "SPK_N"
+    ],
+    "UART_RX": [
+      "LCD_SCK",
+      "MICN1",
+      "UART_RX"
+    ],
+    "UART_TX": [
+      "LCD_MOSI",
+      "AUDLP",
+      "UART_TX"
+    ]
+  }
+}

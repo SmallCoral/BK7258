@@ -1,0 +1,132 @@
+{
+  "name": "桌灵 · DeskSprite",
+  "owner_uuid": "39b879228904416fa8a7488b2237035f",
+  "creator_uuid": "39b879228904416fa8a7488b2237035f",
+  "created_at": "2026-11-14 14:14:04",
+  "updated_at": "2026-11-14 15:14:04",
+  "modifier_uuid": "39b879228904416fa8a7488b2237035f",
+  "content": "# 桌灵 · DeskSprite\n\nBK7258 桌面终端原理图：USB-C 供电与串口烧录、Wi-Fi、D200N2407V0 显示、模拟采音及扬声器播放。无板载按钮。当前屏电源 P25、复位 P1、DC P28、背光 P9/PWM3；功放电源 P15、关断 P14。65 脚 VDDGPIO 接 1 µF 对地去耦。\n\n共五页原理图，62 个实体器件、51 个网络。PCB 保持用户版本，尚未同步本次 GPIO 变化；PCB 由用户自行处理。完整依据、BOM、检查结果和待验证项见 project-report.md。",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "10506c4927cf0474",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "config": {
+    "defaultSheet": "10506c4927cf0474",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  },
+  "profile": {
+    "boards": {
+      "e913249c812bf93a": {
+        "uuid": "e913249c812bf93a",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "9e882607dcaae1aa": {
+        "uuid": "9e882607dcaae1aa",
+        "name": "Schematic1",
+        "board": "e913249c812bf93a",
+        "source": "",
+        "version": "1794663341342",
+        "updateTime": 1794663341342
+      }
+    },
+    "sheets": {
+      "10506c4927cf0474": {
+        "uuid": "10506c4927cf0474",
+        "title": "01_系统接口总览",
+        "schematic_uuid": "9e882607dcaae1aa",
+        "zIndex": 1,
+        "source": "",
+        "version": "1794663341342",
+        "updateTime": 1794663341342
+      },
+      "0aac68bf205ccb35": {
+        "uuid": "0aac68bf205ccb35",
+        "title": "02_USB与电源",
+        "schematic_uuid": "9e882607dcaae1aa",
+        "zIndex": 1.2,
+        "source": "",
+        "version": "1794649181419",
+        "updateTime": 1794649181419
+      },
+      "ad03834b6ba18de0": {
+        "uuid": "ad03834b6ba18de0",
+        "title": "03_主控与按键",
+        "schematic_uuid": "9e882607dcaae1aa",
+        "zIndex": 1.4,
+        "source": "",
+        "version": "1794663341336",
+        "updateTime": 1794663341336
+      },
+      "ddc1f9e5177bc1bf": {
+        "uuid": "ddc1f9e5177bc1bf",
+        "title": "04_显示接口",
+        "schematic_uuid": "9e882607dcaae1aa",
+        "zIndex": 1.6,
+        "source": "",
+        "version": "1794662338815",
+        "updateTime": 1794662338815
+      },
+      "2ed1b79c6dde9e18": {
+        "uuid": "2ed1b79c6dde9e18",
+        "title": "05_采音与播放",
+        "schematic_uuid": "9e882607dcaae1aa",
+        "zIndex": 1.8,
+        "source": "",
+        "version": "1794657201066",
+        "updateTime": 1794657201066
+      }
+    },
+    "pcbs": {
+      "3335cda753d7ae14": {
+        "uuid": "3335cda753d7ae14",
+        "title": "PCB1",
+        "board": "e913249c812bf93a",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1794664132938",
+        "updateTime": 1794664132938
+      }
+    },
+    "panels": {
+      "ec4e1f68fa43ffa1": {
+        "uuid": "ec4e1f68fa43ffa1",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "39b879228904416fa8a7488b2237035f"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  }
+}

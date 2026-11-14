@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-14T13:40:19.817Z",
+  "scope": "Two schematic pages and BOM only. No PCB files accessed.",
+  "published": [
+    {
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\01_系统接口总览.esch2",
+      "sha256": "0dae558340d154d0cd827e23aceda8571be2c81210e341e2974e89a1e3434801"
+    },
+    {
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite\\sch\\Schematic1\\03_主控与按键.esch2",
+      "sha256": "ca5040be338af600a7ee65bcdf3c23c0bb1c9a86735082b7c9e010040dd66c09"
+    },
+    {
+      "path": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\design\\BOM.csv",
+      "sha256": "2fc9f9f09bdfdbe32e0bc6f7eb970f2ff93d58956b62bed5bf13c022e24ed905"
+    }
+  ]
+}

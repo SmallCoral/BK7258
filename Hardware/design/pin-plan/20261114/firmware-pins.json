@@ -1,0 +1,26 @@
+{
+  "revision": "2026-11-14-pin-plan",
+  "status": "Hardware specification; firmware implementation pending",
+  "gpio": {
+    "uart0_rx": 10,
+    "uart0_tx": 11,
+    "lcd_spi1_sck": 2,
+    "lcd_spi1_cs_n": 3,
+    "lcd_spi1_mosi": 4,
+    "lcd_enable": 25,
+    "lcd_reset_n": 1,
+    "lcd_dc": 28,
+    "lcd_backlight_n": 9,
+    "amp_enable": 15,
+    "amp_shutdown": 14
+  },
+  "backlightPwm": { "group": 0, "channel": 3, "gpio": 9, "activeLow": true },
+  "configurationNotes": [
+    "GPIO25 is a static LCD power enable; do not keep PWM5 mapped to this pin.",
+    "Explicitly select GPIO9 for PWMG0 channel3; GPIO23 is an alternate location and must not remain mapped for this board.",
+    "Release unused UART1/SDIO/SPI0/other alternate functions on GPIO1/14/15/25/28 before configuring ordinary GPIO.",
+    "Preserve SPI1 on GPIO2/3/4, UART0 on GPIO10/11, and all analog interfaces.",
+    "Preserve active levels: LCD enable high, reset low, backlight low, amplifier enable high, shutdown high.",
+    "PWMG0 channels2 and3 share a counter; leave channel2 disabled unless its waveform requirements are compatible with backlight PWM3. This is unrelated to SPI1 GPIO2."
+  ]
+}

@@ -1,0 +1,221 @@
+[
+  {
+    "page": "01_系统接口总览",
+    "hits": [
+      {
+        "nets": [
+          "MICP1",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 760
+        },
+        "wires": [
+          "6e4edc217ad31596",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "MICN1",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 735
+        },
+        "wires": [
+          "adb61cd7ab25c721",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "AUDLP",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 710
+        },
+        "wires": [
+          "bee5d70ef166df12",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "AUDLN",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 685
+        },
+        "wires": [
+          "2b54e85a7499d650",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "AMP_PWR_EN",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 660
+        },
+        "wires": [
+          "a20b2f17007f054f",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "AMP_SD",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 635
+        },
+        "wires": [
+          "d1ac8cc4da0e05bc",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "MICP2",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 610
+        },
+        "wires": [
+          "34d2ee74f78ff1a4",
+          "518d2fa5bd1733f5"
+        ]
+      },
+      {
+        "nets": [
+          "MICN2",
+          "MICBIAS"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 910,
+          "y": 585
+        },
+        "wires": [
+          "d42f7e3afc889767",
+          "518d2fa5bd1733f5"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "02_USB与电源",
+    "hits": [
+      {
+        "nets": [
+          "3V3",
+          "UART_CH_TX"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 1100,
+          "y": 790
+        },
+        "wires": [
+          "9bd915ee347cf0be",
+          "6f0451e8bfec2972"
+        ]
+      },
+      {
+        "nets": [
+          "3V3",
+          "UART_CH_RX"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 1100,
+          "y": 800
+        },
+        "wires": [
+          "9bd915ee347cf0be",
+          "bee9cfb4919b9816"
+        ]
+      },
+      {
+        "nets": [
+          "GND",
+          "CC2"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 325,
+          "y": 830
+        },
+        "wires": [
+          "eb6fbbda7ba5d6d9",
+          "9b48ba5b69502205"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "03_主控与按键",
+    "hits": []
+  },
+  {
+    "page": "04_显示接口",
+    "hits": [
+      {
+        "nets": [
+          "GND",
+          "LCD_BLA"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 1145,
+          "y": 695
+        },
+        "wires": [
+          "382264d6f39d7354",
+          "db1e402f1b823bba"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "05_采音与播放",
+    "hits": [
+      {
+        "nets": [
+          "SPK_P",
+          "SPK_N"
+        ],
+        "at": {
+          "kind": "endpoint",
+          "x": 825,
+          "y": 375
+        },
+        "wires": [
+          "8179e87f90b1cb9f",
+          "1105a1c90889d340"
+        ]
+      }
+    ]
+  }
+]

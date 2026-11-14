@@ -1,0 +1,484 @@
+{
+  "original": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite",
+  "stage": "C:/Users/sc/AppData/Local/Temp/desksprite-pin-plan-20261114-v2",
+  "files": [
+    {
+      "name": "01_系统接口总览.esch2",
+      "sha256": "0dae558340d154d0cd827e23aceda8571be2c81210e341e2974e89a1e3434801"
+    },
+    {
+      "name": "02_USB与电源.esch2",
+      "sha256": "6698d249b10d1c406a35d09d02f1317dedd28db27efaac998685f1d298b5302a"
+    },
+    {
+      "name": "03_主控与按键.esch2",
+      "sha256": "ca5040be338af600a7ee65bcdf3c23c0bb1c9a86735082b7c9e010040dd66c09"
+    },
+    {
+      "name": "04_显示接口.esch2",
+      "sha256": "9e99d004df50870ca8e7615fd83b5668841d6533cb4d241f1712597651c9c56f"
+    },
+    {
+      "name": "05_采音与播放.esch2",
+      "sha256": "d4763dbb8b92c574c3abc191f4e21d1512ae7c14036f30a898779e886ee3861c"
+    },
+    {
+      "name": "Schematic1.ecfg",
+      "sha256": "0a1984d170917a6b527c6aa2334394b192850e3b1f634f59902f2c9aecfdc116"
+    }
+  ],
+  "edits": {
+    "03_主控与按键.esch2": [
+      {
+        "type": "ATTR",
+        "id": "6c66ab0b5c412024",
+        "body": {
+          "parentId": "388e57479c78207e-e84",
+          "key": "NO_CONNECT",
+          "x": 380,
+          "y": 235,
+          "value": "yes",
+          "zIndex": 822,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "5a9e1cdc3a71306c",
+        "body": {
+          "parentId": "388e57479c78207e-e88",
+          "key": "NO_CONNECT",
+          "x": 390,
+          "y": 235,
+          "value": "yes",
+          "zIndex": 823,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "1db224efad7ae740",
+        "body": {}
+      },
+      {
+        "type": "ATTR",
+        "id": "2e8c9fe5e941a39c",
+        "body": {
+          "parentId": "388e57479c78207e-e92",
+          "key": "NO_CONNECT",
+          "x": 400,
+          "y": 235,
+          "value": "yes",
+          "zIndex": 824,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "287a44ba28a5747d",
+        "body": {}
+      },
+      {
+        "type": "ATTR",
+        "id": "cc8b58b882375eb3",
+        "body": {}
+      },
+      {
+        "type": "ATTR",
+        "id": "83a23a1ffbe90344",
+        "body": {
+          "parentId": "388e57479c78207e-e52",
+          "key": "NO_CONNECT",
+          "x": 265,
+          "y": 275,
+          "value": "yes",
+          "zIndex": 814,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "8ccccf6bb7ff8525",
+        "body": {}
+      },
+      {
+        "type": "ATTR",
+        "id": "9db69aeb2e123049",
+        "body": {
+          "parentId": "388e57479c78207e-e24",
+          "key": "NO_CONNECT",
+          "x": 265,
+          "y": 345,
+          "value": "yes",
+          "zIndex": 807,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "2c5dcacbd682b744",
+        "body": {}
+      },
+      {
+        "type": "LINE",
+        "id": "60bf8d030d48bd7a",
+        "body": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 265,
+          "startY": 325,
+          "endX": 255,
+          "endY": 325,
+          "lineGroup": "0530a361ddc792d1",
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "efa0cf4fa205150a",
+        "body": {
+          "x": 255,
+          "y": 325,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 6.75,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "RIGHT_BOTTOM",
+          "value": "LCD_PWR_EN",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "0530a361ddc792d1",
+          "zIndex": 3,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "LINE",
+        "id": "76fd77d03afaad90",
+        "body": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 265,
+          "startY": 305,
+          "endX": 255,
+          "endY": 305,
+          "lineGroup": "cd234c141e0279e9",
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "e80f878036dfd1ac",
+        "body": {
+          "x": 255,
+          "y": 305,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 6.75,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "RIGHT_BOTTOM",
+          "value": "LCD_RST_N",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "cd234c141e0279e9",
+          "zIndex": 3,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "LINE",
+        "id": "2ba574fc9e0fb48e",
+        "body": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 265,
+          "startY": 315,
+          "endX": 255,
+          "endY": 315,
+          "lineGroup": "a5111da1471a01a4",
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "4cd6d59c001f3aae",
+        "body": {
+          "x": 255,
+          "y": 315,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 6.75,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "RIGHT_BOTTOM",
+          "value": "LCD_DC",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "a5111da1471a01a4",
+          "zIndex": 3,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "LINE",
+        "id": "1a6db56e832724c5",
+        "body": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 265,
+          "startY": 285,
+          "endX": 255,
+          "endY": 285,
+          "lineGroup": "a9565e25a54865c6",
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "d8278ad18991204f",
+        "body": {
+          "x": 255,
+          "y": 285,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 6.75,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "RIGHT_BOTTOM",
+          "value": "LCD_BL_N",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "a9565e25a54865c6",
+          "zIndex": 3,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "LINE",
+        "id": "a9b05c71b649ba15",
+        "body": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 465,
+          "startY": 295,
+          "endX": 490,
+          "endY": 295,
+          "lineGroup": "6b998488672f40e4",
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "337ad4525807b14c",
+        "body": {
+          "x": 490,
+          "y": 295,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 6.75,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "AMP_PWR_EN",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "6b998488672f40e4",
+          "zIndex": 3,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "LINE",
+        "id": "9de4624e4153e7de",
+        "body": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 465,
+          "startY": 285,
+          "endX": 490,
+          "endY": 285,
+          "lineGroup": "d135492afb3834c1",
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "ATTR",
+        "id": "b89197ffe32b47f4",
+        "body": {
+          "x": 490,
+          "y": 285,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 6.75,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "AMP_SD",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "d135492afb3834c1",
+          "zIndex": 3,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "TEXT",
+        "id": "6c212d5b86c93c42",
+        "body": {
+          "x": 30,
+          "y": 170,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 10,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "屏幕：P25 供电 / P1 复位 / P28 DC / P9 背光（PWM3）。",
+          "fillColor": null,
+          "zIndex": 2100,
+          "locked": false,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "TEXT",
+        "id": "6d9bcce4404bf975",
+        "body": {
+          "x": 30,
+          "y": 145,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 10,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "音频：P15 供电 / P14 关断；固件须同步 GPIO 与复用配置。",
+          "fillColor": null,
+          "zIndex": 2101,
+          "locked": false,
+          "yAxisDirection": "up"
+        }
+      }
+    ],
+    "04_显示接口.esch2": [
+      {
+        "type": "TEXT",
+        "id": "29f6a504783ed3b3",
+        "body": {
+          "x": 30,
+          "y": 455,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 10,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "屏电源：P25 高有效，6.8kΩ 设定约 1A 限流",
+          "fillColor": null,
+          "zIndex": 15,
+          "locked": false,
+          "yAxisDirection": "up"
+        }
+      },
+      {
+        "type": "TEXT",
+        "id": "07c05114ccd693a6",
+        "body": {
+          "x": 30,
+          "y": 95,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 10,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "背光：P9 / PWM3 低有效；R9 暂留 10 Ω，须按该屏背光额定电流复核。",
+          "fillColor": null,
+          "zIndex": 16,
+          "locked": false,
+          "yAxisDirection": "up",
+          "strikeout": false,
+          "groupId": ""
+        }
+      },
+      {
+        "type": "TEXT",
+        "id": "69177dddd41a746b",
+        "body": {
+          "x": 550,
+          "y": 60,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 10,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": "LEFT_BOTTOM",
+          "value": "J2.10 = DC（P28），J2.9 = MOSI（P4）。",
+          "fillColor": null,
+          "zIndex": 18,
+          "locked": false,
+          "yAxisDirection": "up",
+          "strikeout": false,
+          "groupId": ""
+        }
+      }
+    ],
+    "05_采音与播放.esch2": []
+  },
+  "scope": "Read-only PCB reference; publish schematic pages only.",
+  "pcbSha256": "813bc40db0d35dc7ccd3dfb3aca32f3f384450600bfee24f8c31b9b50560e92d"
+}

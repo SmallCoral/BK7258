@@ -1,0 +1,42 @@
+[
+  {
+    "key": "B1",
+    "props": {
+      "PCB Layer": "Default",
+      "Relevance": "[]",
+      "Description": ""
+    },
+    "bom": false,
+    "pcb": false
+  },
+  {
+    "key": "B2",
+    "props": {
+      "PCB Layer": "Default",
+      "Relevance": "[]",
+      "Description": ""
+    },
+    "bom": false,
+    "pcb": false
+  },
+  {
+    "key": "B3",
+    "props": {
+      "PCB Layer": "Default",
+      "Relevance": "[]",
+      "Description": ""
+    },
+    "bom": false,
+    "pcb": false
+  },
+  {
+    "key": "B4",
+    "props": {
+      "PCB Layer": "Default",
+      "Relevance": "[]",
+      "Description": ""
+    },
+    "bom": false,
+    "pcb": false
+  }
+]

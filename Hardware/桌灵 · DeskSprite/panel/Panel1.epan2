@@ -1,0 +1,3 @@
+{"type":"DOCHEAD","ticket":197}||{"docType":"PANEL","client":"3f995a8753e6ec75","uuid":"ec4e1f68fa43ffa1","updateTime":1794636583687,"version":"1794636583687","editVersion":"4.1.100","user":{"uuid":"9a9dbf9939e9483e8040442f63925264","nickname":"smallcoral","username":"smallcoral","avatar":"//image.lceda.cn/avatars/2024/5/CzCRn2b7zDsz5olQ21p6KbtybJ599ypSTRH3uStJ.png"}}|
+{"type":"META","ticket":193,"id":"META"}||{"title":"Panel1","zIndex":null}|
+{"type":"CANVAS","ticket":195,"id":"CANVAS"}||{"material":"acrylic","thickness":"0.8mm","print":"Bottom Side","craft":"Transparent","desc":"","coverColor":"white","width":"393mm","height":"579mm","originX":0,"originY":0,"orderWidth":"579mm","orderHeight":""}

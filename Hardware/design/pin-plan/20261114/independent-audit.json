@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "auditor": "/root/pin_plan_audit",
+  "summary": "Independently rebuilt all 51 nets from spec.parts and compared built.nets; all 294 pins across 66 parts match, including 53 unconnected pins. Exactly six output assignments changed; J2, analog, SPI1, UART0, VDDGPIO and passive pin maps are unchanged. Module reference page 1 confirms GPIO25→pad9, GPIO1→pad11, GPIO28→pad10, GPIO9→pad13, GPIO15→pad29 and GPIO14→pad28. All targets are unique perimeter pins, previously unused or freed by this remap. Downstream connections preserve the declared control polarities. Beken DS-BK7258-E13 V2.2, Table 3-5 and §4.6, confirms GPIO9 AF2 supports PWMG0_PWM3 and GPIO1/14/15/25/28 support ordinary GPIO; none appears in page 60's power-up-glitch caution list. No PCB files accessed.",
+  "findings": [
+    {"severity":"warning","finding":"Firmware configuration is outside the audit package and remains unverified.","fix":"Update all six GPIO assignments. Select GPIO9 AF2/PWMG0_PWM3 for active-low backlight control; release GPIO25 from PWM5 and configure it as the active-high static LCD enable. Configure GPIO1/14/15/28 as ordinary outputs, preserving LCD reset low, AMP shutdown high and AMP power enable high."},
+    {"severity":"warning","finding":"Beken datasheet §4.26 and page77 states PWMG0 PWM2/PWM3 share a counter and cannot generate different duty cycles when simultaneously enabled.","fix":"Account for this shared resource when configuring backlight PWM3; keep PWM2 disabled unless its waveform requirements are compatible."}
+  ],
+  "source": "https://atta.szlcsc.com/upload/public/pdf/source/20251127/3E2C5A125F7501CF8881A2782356EC17.pdf"
+}

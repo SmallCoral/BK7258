@@ -1,0 +1,118 @@
+{
+  "errors": [],
+  "changes": [
+    {
+      "ref": "U1",
+      "pin": "7",
+      "before": "AMP_SD",
+      "after": ""
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "before": "LCD_BL_N",
+      "after": "LCD_PWR_EN"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "before": "",
+      "after": "LCD_DC"
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "before": "",
+      "after": "LCD_RST_N"
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "before": "",
+      "after": "LCD_BL_N"
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "before": "AMP_PWR_EN",
+      "after": ""
+    },
+    {
+      "ref": "U1",
+      "pin": "22",
+      "before": "LCD_PWR_EN",
+      "after": ""
+    },
+    {
+      "ref": "U1",
+      "pin": "23",
+      "before": "LCD_RST_N",
+      "after": ""
+    },
+    {
+      "ref": "U1",
+      "pin": "24",
+      "before": "LCD_DC",
+      "after": ""
+    },
+    {
+      "ref": "U1",
+      "pin": "28",
+      "before": "",
+      "after": "AMP_SD"
+    },
+    {
+      "ref": "U1",
+      "pin": "29",
+      "before": "",
+      "after": "AMP_PWR_EN"
+    }
+  ],
+  "mapping": [
+    {
+      "net": "LCD_PWR_EN",
+      "beforeGpio": 7,
+      "beforePin": "22",
+      "gpio": 25,
+      "pin": "9"
+    },
+    {
+      "net": "LCD_RST_N",
+      "beforeGpio": 6,
+      "beforePin": "23",
+      "gpio": 1,
+      "pin": "11"
+    },
+    {
+      "net": "LCD_DC",
+      "beforeGpio": 5,
+      "beforePin": "24",
+      "gpio": 28,
+      "pin": "10"
+    },
+    {
+      "net": "LCD_BL_N",
+      "beforeGpio": 25,
+      "beforePin": "9",
+      "gpio": 9,
+      "pin": "13"
+    },
+    {
+      "net": "AMP_PWR_EN",
+      "beforeGpio": 8,
+      "beforePin": "14",
+      "gpio": 15,
+      "pin": "29"
+    },
+    {
+      "net": "AMP_SD",
+      "beforeGpio": 23,
+      "beforePin": "7",
+      "gpio": 14,
+      "pin": "28"
+    }
+  ],
+  "parts": 66,
+  "physicalParts": 62,
+  "nets": 51
+}

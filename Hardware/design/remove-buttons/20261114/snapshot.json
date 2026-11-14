@@ -1,0 +1,766 @@
+{
+  "original": "C:\\Users\\sc\\Documents\\Dev\\Hardware\\BK7258\\Hardware\\桌灵 · DeskSprite",
+  "stage": "C:/Users/sc/AppData/Local/Temp/desksprite-no-buttons-20261114",
+  "files": [
+    {
+      "name": "01_系统接口总览.esch2",
+      "beforeHash": "2b2c937f4e33727e5e64e73ca79f443c1eb452ba79daabdfe99ec84a5a28ac3b"
+    },
+    {
+      "name": "03_主控与按键.esch2",
+      "beforeHash": "fee8b3888830bc3f67a32db161d366e524979ac232f7d9f660899338e742b0c3"
+    }
+  ],
+  "removedRefs": [
+    "SW1",
+    "SW2",
+    "C11",
+    "C12",
+    "R5"
+  ],
+  "removedRecords": 112,
+  "updates": [
+    {
+      "type": "COMPONENT",
+      "id": "c648a4bf0c094f77",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "1d92a889d6020e6b",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "b4d3a71b10f8bd9e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "d72c861f5911c8dc",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "4e41b2f22b08dcf5",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "d9f3ddf43b12a580",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "db42e8c5ffde48fb",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "45a02c6831cc3f86",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "2dc18129589283d4",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "9d1c0310632ff8e1",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "6ad4fc1278eade5e",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "b984658b98df3ae1",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "7f635a4d304104d9",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "e1154b102e743921",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "eed12c5b0ad6e552",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "43f9a27be704689d",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "3a32db820a2825f5",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "3360ccf30778be2a",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "7d50011cd21629dd",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "24ac878888c0f13a",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "9150ed9fa1bd406d",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "17b74befa5a6ecf8",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "818396effd60a377",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "ecc0c6fe793bd42e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "c5008646f3c81bd6",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "e9a54d97cd1ec7ee",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "967c0653c9455b2a",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "b4614c8f5a54a2f8",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "ab5c003d35422b07",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "091427cecad3e0f3",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "d345529cce09a42f",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "b53c21ebd35606e5",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "859a9bac3ccc1a14",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "3e60d6b4b1d3cad0",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "ca12b3c5764d046d",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "9f9c2f681f6e0a13",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "5bbccce545fe3311",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "ea2305be8f17d138",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "65d0defe112315e5",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "65f33a420fd9191b",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "87f25ad4c9b66134",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "cbc58eb4b18513e5",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "a5bb73a9766eb4b9",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "c1602dc96d252aea",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "be9afd2ed3bafc0e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "958c0dc4716b3793",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "ec9be0cd45fd28e2",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "550722a9e002df59",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "e30fabf15abfddb4",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "16f0fb5c59bd151e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "e10c72ab5cfd76ef",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "f9a3fba6904f60f7",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "08ad36ba3db88b5f",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "279b8d92970be401",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "86399a65351ab320",
+      "body": {}
+    },
+    {
+      "type": "TEXT",
+      "id": "0672411d080134ff",
+      "body": {}
+    },
+    {
+      "type": "TEXT",
+      "id": "574fbc50ceabcc21",
+      "body": {}
+    },
+    {
+      "type": "WIRE",
+      "id": "dd2f20946b4286e4",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "1ee5fc425ddf7d3a",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "8f304486fdb1f0f1",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "74974ce9d70929bc",
+      "body": {}
+    },
+    {
+      "type": "WIRE",
+      "id": "86b26fb61442cf1e",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "5f7e22b44d39a790",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "590d0a46fc52bc75",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "41b7e89c98cdb3a5",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "a8578ef0b62395fd",
+      "body": {}
+    },
+    {
+      "type": "WIRE",
+      "id": "fe29a9432e694f83",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "ae986e16fb5e06b8",
+      "body": {}
+    },
+    {
+      "type": "WIRE",
+      "id": "e394009f680751e6",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "f7d0107d833155df",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "2278d2b8043f9a3b",
+      "body": {}
+    },
+    {
+      "type": "WIRE",
+      "id": "1b377ad8d7f65fe1",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "8433e2632cb5ce92",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "587b008c7de37efe",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "a02251cb0a00c909",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "b2c9f40d0a9ff343",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "d64cb1226f3cd410",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "5cb7b9e4de903e76",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "b0862da1e8574f1e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "c32b271d7b60268f",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "885f8ec764a2f1c1",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "2db2746a15f6f63f",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "af8a68b311588bd4",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "c8db2022fda1aee4",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "b1377470c9a8f807",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "223716fb7b42b772",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "24861297216dc679",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "293d9d96091f1c16",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "fb05f14488852017",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "ed91e892eb945da6",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "b0081981683dda9e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "86c6824d44bd8f80",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "fd54bcf99812cc3f",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "f6a477144c829dd0",
+      "body": {}
+    },
+    {
+      "type": "COMPONENT",
+      "id": "728dc01fee18baff",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "aa16c3e24f35f913",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "b837fec9726b194e",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "62bf7f1127af20a2",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "f7523a37a7095849",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "51ac962c3ff3928d",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "0ba156bed59b661d",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "789c60b00471317d",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "b8cb9abb2541bf0e",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "cd8cc5b6c54d4844",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "6d02efeb5125de98",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "01f0fefa2c0d87c3",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "539717b9b64c0ad3",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "01486693a574ed6b",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "e9c5d19a755655da",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "36fb6996034771e0",
+      "body": {}
+    },
+    {
+      "type": "LINE",
+      "id": "c5a2d5643af10b31",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "0e92eb3fcb3600fc",
+      "body": {}
+    },
+    {
+      "type": "ATTR",
+      "id": "7b6ea3fc07c85143",
+      "body": {
+        "parentId": "388e57479c78207e-e8",
+        "key": "NO_CONNECT",
+        "x": 265,
+        "y": 385,
+        "value": "yes",
+        "zIndex": 703,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "ATTR",
+      "id": "287a44ba28a5747d",
+      "body": {
+        "parentId": "388e57479c78207e-e36",
+        "key": "NO_CONNECT",
+        "x": 265,
+        "y": 315,
+        "value": "yes",
+        "zIndex": 710,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "TEXT",
+      "id": "163e8ced28bae764",
+      "body": {
+        "x": 20,
+        "y": 550,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 10,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "BK7258 主控模组：两个符号单元对应同一颗 U1",
+        "fillColor": null,
+        "zIndex": 11,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "TEXT",
+      "id": "96465c22efd367e4",
+      "body": {
+        "x": 30,
+        "y": 90,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 10,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "CEN 内部已有上拉；烧录复位可通过断电重上电完成。",
+        "fillColor": null,
+        "zIndex": 13,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "TEXT",
+      "id": "ec633de06fa33d30",
+      "body": {
+        "x": 20,
+        "y": 20,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 10,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "桌灵 DeskSprite · V0.3 · 3/5 · 主控模组 · 2026-11-14",
+        "fillColor": null,
+        "zIndex": 17,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    }
+  ],
+  "overviewUpdates": [
+    {
+      "type": "ATTR",
+      "id": "c8db431ffe6ec3f5",
+      "body": {
+        "x": 490,
+        "y": 832,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 6.75,
+        "fontWeight": false,
+        "italic": false,
+        "underline": false,
+        "strikeout": false,
+        "align": "LEFT_BOTTOM",
+        "value": "BK7258 主控（第 3 页）",
+        "keyVisible": null,
+        "valueVisible": false,
+        "key": "Name",
+        "fillColor": null,
+        "parentId": "b2444457ca4c661b",
+        "zIndex": 26,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "TEXT",
+      "id": "9a46f6b259cbc2d1",
+      "body": {
+        "x": 490,
+        "y": 850,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 10,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "BK7258 主控（第 3 页）",
+        "fillColor": null,
+        "zIndex": 6,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "TEXT",
+      "id": "53070fcfd9f681ae",
+      "body": {
+        "x": 25,
+        "y": 840,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 10,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "USB 供电与烧录，Wi-Fi 连接电脑；显示、采音与播放。",
+        "fillColor": null,
+        "zIndex": 10,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    },
+    {
+      "type": "TEXT",
+      "id": "aa4f6b7a75b34d17",
+      "body": {
+        "x": 25,
+        "y": 65,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 10,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "配套 D200N2407V0 屏；常规阻容 0603 英制，特殊尺寸另行说明。",
+        "fillColor": null,
+        "zIndex": 13,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    }
+  ],
+  "includesVddgpioCorrection": true,
+  "scope": "Schematic and documentation only; no PCB access."
+}

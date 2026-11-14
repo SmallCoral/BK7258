@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-11-14T09:34:55.368Z",
+  "nativeReadErrors": [],
+  "physicalPins": 260,
+  "noConnect": 51,
+  "ncMismatch": [],
+  "virtualPinMismatch": [],
+  "crossNetEndpointContacts": 0,
+  "labelConflicts": 0,
+  "sourceFiles": [
+    {
+      "title": "01_系统接口总览",
+      "unchanged": true
+    },
+    {
+      "title": "02_USB与电源",
+      "unchanged": true
+    },
+    {
+      "title": "03_主控与按键",
+      "unchanged": true
+    },
+    {
+      "title": "04_显示接口",
+      "unchanged": true
+    },
+    {
+      "title": "05_采音与播放",
+      "unchanged": true
+    }
+  ]
+}

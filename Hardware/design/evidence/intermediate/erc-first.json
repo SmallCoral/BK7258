@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "error": {
+    "code": "CLI_VERSION_TOO_OLD",
+    "message": "LCEDA Pro / EasyEDA Pro 4.1.71 is too old — this skill needs 4.1.94+ (the source/auto APIs used here are 4.1.83+; 4.1.94 is the verified build)."
+  },
+  "version": "4.1.71"
+}
