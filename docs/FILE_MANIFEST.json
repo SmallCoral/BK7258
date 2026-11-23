@@ -1,28 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-11-13",
+  "date": "2026-11-23",
   "algorithm": "SHA-256",
-  "fileCount": 9,
-  "totalBytes": 57641431.0,
+  "fileCount": 6,
+  "totalBytes": 42093488,
   "files": [
-    {
-      "path": "Document/参考资料/UV-K1/UV-K1-2中文说明书.pdf",
-      "bytes": 13046633,
-      "sha256": "a4d98db3dd5ecc7e4148c5360b71ab56969f85a1cb905d94d5c9742fec313e92",
-      "origin": "user-provided-conversation-attachment"
-    },
-    {
-      "path": "Document/参考资料/UV-K1/UV-K1(8)固件.rar",
-      "bytes": 71913,
-      "sha256": "52d3a1ef107114deb113cdb1b793d74c7abef2e830a8fe84a273ad2b5c280422",
-      "origin": "user-provided-conversation-attachment"
-    },
-    {
-      "path": "Document/参考资料/UV-K1/UV-K1(8)写频软件.rar",
-      "bytes": 2429397,
-      "sha256": "01066b57a66ac851459d420d1ed032419ed7af5013d5e9d57e0210b1001d40c5",
-      "origin": "user-provided-conversation-attachment"
-    },
     {
       "path": "Document/立创·实战派BK7258/1、官方烧录工具/BKFIL_windows_4.1.2.260525141.zip",
       "bytes": 39197435,

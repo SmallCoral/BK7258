@@ -1,22 +1,19 @@
-# 硬件目录
+# 桌灵硬件归档
 
-原理图已保存到 [桌灵 · DeskSprite 工程](<桌灵 · DeskSprite/桌灵 · DeskSprite.eprj3>)，共五页：系统接口总览、USB与电源、主控模组、显示接口、采音与播放。原工程空白页已备份在 `design/backups/2026-11-14-before-schematic/`。
+用嘉立创 EDA 专业版打开 [桌灵 DeskSprite 工程](<桌灵 · DeskSprite/桌灵 · DeskSprite.eprj3>)。工程包含五页原理图、PCB 和拼板。移动工程时保留整个工程目录。
 
-设计采用 BK7258 模组、USB-C 供电与 CH340K 串口烧录、D200N2407V0 显示屏、模拟麦克风和差分功放。2026-11-14 已取消板载复位键、对话键及 C11/C12/R5，并将 65 脚更正为 VDDGPIO、C10=1 µF；当前共 62 个实体器件。屏幕为 2 英寸、240×320、ST7789V2、无触摸版本，屏体 34.6×47.8×1.9 mm。
+| 文件 | 内容 |
+| --- | --- |
+| [BOM](design/BOM.csv) | 62 个实体器件 |
+| [设计依据](design/design-intent.md) | 电源、串口、麦克风、功放及显示选型依据 |
+| [屏幕和 FPC](design/display-selection/screen-selection.md) | D200N2407V0 尺寸、线序与 AFC34-S10FIA-00 插座规格 |
+| [引脚表](design/pin-plan/20261114/firmware-pins.json) | 原理图 GPIO、背光 PWM 及有效电平 |
+| [引脚复核](design/pin-plan/20261114/review.md) | GPIO、审计及原理图预览 |
 
-- [工程报告与检查结果](<桌灵 · DeskSprite/project-report.md>)
-- [BOM（62个实体器件）](design/BOM.csv)
-- [最新无按键版与 VDDGPIO 纠正记录](design/remove-buttons/20261114/review.md)
-- [设计依据及原厂资料](design/design-intent.md)
-- [所选屏幕、尺寸图与最终接口定义](design/display-selection/screen-selection.md)
-- [当前 GPIO 引脚优化：屏幕 P25/P1/P28/P9，音频 P15/P14](design/pin-plan/20261114/review.md)
-- [固件引脚表](design/pin-plan/20261114/firmware-pins.json)
-- [当前主控原理图](design/pin-plan/20261114/page-3.png)
-- [当前显示接口预览](design/pin-plan/20261114/page-4.png)
-- [最新独立网表审计](design/pin-plan/20261114/independent-audit.json)
+## 版本核对
 
-2026-11-14 显示适配：原生网表与独立审计均确认 J2 线序正确，只有 J2 的 1–10 脚网络改变。最新 ERC 保留四条虚拟模块无封装提示，未再报告栅格警告。背光 R9 暂留 10 Ω，仍需按屏幕背光额定电流或实测结果定值；实物供电、音频和显示初始化未验证。先前全图复核及修复历史见 [17:32 复核报告](design/reviews/20261114173243/review.md)。
+结项保留 GitHub 提交 `4d6bf4e` 中最新的 PCB 与工程索引。读取 PCB 的 U1 焊盘网络，确认屏幕电源、复位、D/C、背光、功放电源及关断六项与修订原理图一致。该核对仅覆盖六条控制网，制板版本、其余网络和 DRC 需结合实际工程确认。
 
-原厂参考原理图保留在 [Document](../Document/立创·实战派BK7258/3、参考原理图/) 中。采购规格与待验证事项见 [当前方案](../docs/PROJECT_PLAN.md) 和 [决策记录](../docs/DECISIONS.md)。
+固件中的 LCD 诊断仍按早期 PCB 使用 P7 屏电源、P6 复位、P5 D/C 和 P25 背光。最新工程使用 P25 屏电源、P1 复位、P28 D/C 和 P9 背光。样机 LCD 测试中屏幕与背光未亮，结项使用 Windows 面板。[固件说明](../Firmware/voice-bringup/README.md)
 
-当前 GPIO 分配按用户现有 PCB 位置调整，六条控制网络相关的直线交点由 44 降至 10（引脚规划模型，非实际布线保证）。PCB 文件保持用户原样，尚未同步这次引脚变化；更新原理图到 PCB 及实际布线由用户处理。固件需采用新的 GPIO 配置，背光使用 GPIO9/PWM3，GPIO25 改为静态屏电源使能。
+J2 的 10 针排线应同时核对 1 脚方向和插座触点。R9 的 10 Ω 是参考值，背光电流尚待实测。J3 两脚为功放差分输出，扬声器跨接两脚，禁止将任一端接地。图纸的扬声器选型是 8 Ω、至少 1 W。

@@ -1,0 +1,19 @@
+{
+  "focus_minutes": 25,
+  "board_port": "COM4",
+  "apps": {
+    "vscode": {
+      "label": "VS Code",
+      "phrases": ["打开 VS Code", "打开代码编辑器"],
+      "path": "%LOCALAPPDATA%/Programs/Microsoft VS Code/Code.exe",
+      "args": []
+    },
+    "project": {
+      "label": "BK7258 项目",
+      "phrases": ["打开 BK7258 项目", "打开桌灵项目"],
+      "path": "%LOCALAPPDATA%/Programs/Microsoft VS Code/Code.exe",
+      "args": ["{project}"]
+    }
+  },
+  "work_mode": ["project"]
+}

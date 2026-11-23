@@ -1,0 +1,15 @@
+[project]
+name = "desksprite-desktop"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "psutil>=7.0",
+    "pycaw>=20251023",
+    "pyserial>=3.5",
+    "pystray>=0.19",
+    "pillow>=11",
+    "winrt-Windows.Media.Control>=3.1",
+]
+
+[tool.uv]
+package = false

@@ -1,6 +1,0 @@
-{
-  "ok": true,
-  "auditor": "/root/vddgpio_audit",
-  "summary": "独立从 spec.parts 重建并比对全部 53 个网络、253 个已连接引脚，71 个器件一致，无缺失、额外或重复归网，51 个未连接引脚保持未连接。参考第1页确认模组65脚为 VDDGPIO，C15为1µF接地；VIO的4.7µF说明属于另一电源名称。实际 VDDGPIO 仅含 C10.1、U1.65，C10为1µF且另一端接GND，与外部3V3分离；GPIO映射符合规格。仅审查原理图证据及参考图，未访问PCB文件。",
-  "findings": []
-}

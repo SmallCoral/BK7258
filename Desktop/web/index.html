@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>桌灵 · DeskSprite</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/dashboard.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="top">
+      <div>
+        <h1>桌灵 <span>DeskSprite</span></h1>
+        <p id="clock">—</p>
+      </div>
+      <div class="connections">
+        <span class="connection" id="host-connection">正在连接电脑</span>
+        <span class="connection" id="board-connection">正在查找 BK7258</span>
+      </div>
+    </header>
+
+    <section class="metrics" aria-label="电脑状态">
+      <article class="card metric">
+        <h2>CPU</h2><strong id="cpu">—</strong>
+        <progress id="cpu-meter" max="100" value="0" aria-label="CPU 占用"></progress>
+      </article>
+      <article class="card metric">
+        <h2>内存</h2><strong id="memory">—</strong>
+        <progress id="memory-meter" max="100" value="0" aria-label="内存占用"></progress>
+        <span class="secondary" id="memory-detail"></span>
+      </article>
+      <article class="card metric">
+        <h2>网络</h2>
+        <div class="rates">
+          <div><span class="secondary">下载</span><strong id="download">—</strong></div>
+          <div><span class="secondary">上传</span><strong id="upload">—</strong></div>
+        </div>
+        <span class="secondary" id="metrics-time"></span>
+      </article>
+    </section>
+
+    <div class="workspace">
+      <div class="stack">
+        <section class="card controls">
+          <h2>电脑指令</h2>
+          <form id="command">
+            <label class="visually-hidden" for="text">输入指令</label>
+            <input id="text" type="text" maxlength="120" placeholder="例如：现在内存用了多少" required>
+            <button type="submit" class="primary" data-online>发送</button>
+          </form>
+          <div class="actions">
+            <button class="primary" id="listen" type="button" data-online>电脑麦克风</button>
+            <button id="board-listen" type="button" data-online hidden>板载麦克风</button>
+            <button id="interrupt" type="button" data-online>打断语音</button>
+            <span id="speech-state" class="secondary" aria-live="polite"></span>
+          </div>
+          <div class="actions" id="apps"></div>
+          <div class="actions">
+            <button type="button" data-phrase="暂停播放" data-online>暂停</button>
+            <button type="button" data-phrase="继续播放" data-online>继续播放</button>
+            <button type="button" data-phrase="下一首" data-online>下一首</button>
+          </div>
+          <form id="volume-form">
+            <label for="volume">系统音量</label>
+            <input id="volume" type="range" min="0" max="100" step="1" value="30">
+            <output id="volume-value" for="volume">30%</output>
+            <button type="submit" data-online>设置</button>
+          </form>
+        </section>
+        <section class="card">
+          <h2>执行记录</h2>
+          <p id="request-error" role="status"></p>
+          <ol id="history" aria-label="最近的执行结果"></ol>
+        </section>
+      </div>
+      <div class="stack">
+        <section class="card focus">
+          <h2>专注计时</h2>
+          <strong id="timer" aria-label="剩余时间">--:--</strong>
+          <div class="actions">
+            <button type="button" class="primary" data-phrase="进入工作模式" data-online>进入工作模式</button>
+            <button type="button" id="end-focus">结束计时</button>
+          </div>
+        </section>
+        <section class="card processes">
+          <h2>进程占用</h2>
+          <table>
+            <thead><tr><th scope="col">进程</th><th scope="col">CPU</th><th scope="col">内存</th></tr></thead>
+            <tbody id="processes"></tbody>
+          </table>
+          <p class="secondary" id="process-empty">正在采集进程</p>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

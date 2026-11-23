@@ -1,7 +1,0 @@
-{
-  "ok": true,
-  "auditor": "/root/pcb_gpio_audit",
-  "summary": "Independently reconstructed all 53 nets from spec.parts; all 253 connected pin memberships match built.nets. All 260 PCB pad-number assignments across 67 components match built.parts, including 47 GND assignments and shared ground identifiers. Reference PDF page 1 confirms GPIO6/pad23 and GPIO7/pad22 belong to the external perimeter pin group and are GPIOs, not fixed-function or reserved pins; both were previously unused. GPIO12/pad69 and GPIO13/pad70 are now unused. UART0 GPIO10/11 at pads36/37 and SPI GPIO2/3/4 at pads27/26/25 remain unchanged. Exactly the four declared pin assignments changed. This audit establishes netlist consistency only; no measured electrical or routing performance is claimed.",
-  "findings": [],
-  "deliveryScope": "Only the schematic audit applies to the delivered change. The PCB comparison in this historical reviewer summary refers to a cancelled temporary experiment and was not published."
-}

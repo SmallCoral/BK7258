@@ -1,9 +1,10 @@
-# 设计资料使用说明
+# 桌灵硬件设计资料
 
-可编辑原理图以 `../桌灵 · DeskSprite/sch/` 中的实际文件为准，当前 BOM 为 [BOM.csv](BOM.csv)。必要符号、器件、封装及模型引用嵌入在工程中，打开工程不依赖本机临时目录。
+使用[工程源文件](<../桌灵 · DeskSprite/桌灵 · DeskSprite.eprj3>)查看完整原理图和 PCB。原理图元件和封装引用随工程保存。
 
-当前接线与 GPIO 分配见 [引脚优化记录](pin-plan/20261114/review.md) 及 [固件引脚表](pin-plan/20261114/firmware-pins.json)。历史版本的网表、预览、BOM 和检查结果仅反映当次检查状态。
+- [BOM](BOM.csv)
+- [主要器件及选型依据](design-intent.md)
+- [屏幕尺寸与接口](display-selection/screen-selection.md)
+- [GPIO 及复核记录](pin-plan/20261114/review.md)
 
-根目录及各历史文件夹中的脚本是过程记录，部分依赖本机 EasyEDA 官方 skill/CLI 路径；不得直接重跑初版生成脚本覆盖当前工程。被用户取消的 PCB 试验、工具缓存与重复 ZIP 输出不上传仓库。
-
-PCB 由用户维护。本次 GPIO 优化只读取布局，修改原理图；仓库中的 PCB 按用户文件原样归档，尚需用户在 EDA 中同步本次原理图变更并自行布线。
+此处的 ERC、网表和预览对应原理图修订时的检查。历次生成脚本、过程导出和早期原理图包可从 [GitHub 历史版本](https://github.com/SmallCoral/BK7258/tree/4d6bf4ed275064239dd0fc60eff98b34aa5a5e00/Hardware/design) 查阅。

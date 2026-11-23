@@ -1,5 +1,5 @@
-# 固件目录
+# 桌灵设备固件
 
-这里预留 BK7258 桌面助手设备固件。目前尚未实现应用程序，也未拉取完整 SDK。
+[BK7258 联调固件](voice-bringup/README.md)提供 USB 串口录音、板端状态和扬声器诊断提示。Windows 上位机负责中文指令识别、语音回复及电脑操作。[Windows 上位机](../Desktop/README.md)
 
-原始参考工程位于 [demo.zip](../Document/立创·实战派BK7258/2、参考历程/demo.zip)，小智方案链接见 [资料索引](../docs/SOURCES.md)。后续先确认硬件板型与内存配置，再补齐 SDK 和公共组件。
+构建使用固定版本的 Beken SMP SDK。官方烧录工具、示例和原厂图纸见[资料索引](../docs/SOURCES.md)。
